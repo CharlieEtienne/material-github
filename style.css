@@ -168,4 +168,7 @@ image-crop .handle:before, .pagination a, .pagination em, .pagination span, .Ava
 path.js-diff-placeholder {
     fill: #323c41 !important;
 }
+.repohead.experiment-repo-nav {
+    background-color: #263238;
+}
 }
