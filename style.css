@@ -265,4 +265,8 @@ path.js-diff-placeholder {
 .blob-code-deletion .x {
 	background-color: hsla(353, 73%, 30%, 1);
 }
+.timeline-comment
+{
+    color: inherit;
+}
 }
