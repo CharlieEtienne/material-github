@@ -269,4 +269,29 @@ path.js-diff-placeholder {
 {
     color: inherit;
 }
+/* comments */
+ .comment-body, .markdown-body, .js-comment-body {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+/* timeline background lines, badges, etc */
+ .TimelineItem-break {
+    background-color: var(--bg3) !important;
+    border-top: 4px solid var(--bg5) !important;
+}
+.TimelineItem:before {
+    background-color: var(--bg5) !important;
+}
+.TimelineItem-badge {
+    border: 2px solid var(--bg5) !important;
+}
+/* tabs on the comment box and such, Write, Preview, etc  */
+ .tabnav-tab.selected, .tabnav-tab[aria-selected=true] {
+    background-color: var(--bg5) !important;
+    border-color: var(--bg4) !important;
+}
+/* badges, like bug, feature, etc, */
+ .protip code {
+    background-color: var(--bg5) !important;
+    padding: 3px;
+}
 }
