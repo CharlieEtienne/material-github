@@ -11,7 +11,7 @@ Based on awesome **[VSCode Material Theme](https://github.com/equinusocio/vsc-ma
 
 2. Install [https://userstyles.org/styles/174317/material-dark-github](https://userstyles.org/styles/174317/material-dark-github) 
 
-## Contributions
+## Disclaimer
 
 Keeping the theme up to date is very difficult because of changes github could bring to css at any moment. 
 If the theme is broken, don't hesitate to fill an issue here.
