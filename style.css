@@ -294,4 +294,40 @@ path.js-diff-placeholder {
     background-color: var(--bg5) !important;
     padding: 3px;
 }
+.menu-item.selected {
+	background-color: var(--bg4)
+}
+.menu .menu-item:hover{
+	background-color: var(--bg5) !important;
+}
+.timeline-comment--caret:after,
+.timeline-comment--caret:before{
+    border-right-color: var(--bg1);
+}
+.Popover-message:after {
+	border-bottom-color: var(--bg1);
+}
+.Popover-message--bottom-left:after, .Popover-message--bottom-right:after, .Popover-message--bottom:after {
+    border-top-color: var(--bg1);
+}
+.Popover-message--right-bottom:after, .Popover-message--right-top:after, .Popover-message--right:after {
+    border-left-color: var(--bg1);
+}
+.select-menu-tabs .select-menu-tab-nav.selected, .select-menu-tabs .select-menu-tab-nav[aria-selected=true], .select-menu-tabs a.selected, .select-menu-tabs a[aria-selected=true] {
+    color: #24292e;
+    background-color: var(--btn);
+    border-color: var(--btn);
+}
+.TimelineItem-badge {
+	background-color: var(--bg5);
+}
+.TimelineItem-badge .octicon {
+	fill: hsla(0, 0%, 100%, 0.5);
+}
+.TimelineItem-body {
+    color: hsla(0, 0%, 100%, 0.33);
+}
+.commit-ref, .branch-name {
+    color: hsla(0, 0%, 100%, 0.4);
+}
 }
