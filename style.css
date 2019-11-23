@@ -330,4 +330,7 @@ path.js-diff-placeholder {
 .commit-ref, .branch-name {
     color: hsla(0, 0%, 100%, 0.4);
 }
+.diffbar, .pr-toolbar {
+    background-color: var(--bg3);
+}	
 }
