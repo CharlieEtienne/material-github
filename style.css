@@ -332,5 +332,8 @@ path.js-diff-placeholder {
 }
 .diffbar, .pr-toolbar {
     background-color: var(--bg3);
-}	
+}
+.orghead {
+    background-color: var(--bg1);
+}
 }
