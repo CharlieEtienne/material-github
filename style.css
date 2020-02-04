@@ -221,7 +221,16 @@ path.js-diff-placeholder {
 .ellipsis-expander, .hidden-text-expander a {
     background: rgba(0,0,0,0.2);
 }
-
+/* Profile Contributions */
+rect.day:not([data-count="0"]), ul.legend {
+    filter: invert(100%) hue-rotate(180deg);
+}
+rect.day[data-count="0"] {
+    fill: var(--bg1) !important;
+}
+ul.legend li:nth-child(1) {
+    background: #dcdcdc !important;
+}
 
 /* CODE */
 .pl-s .pl-s1, .pl-smi {
