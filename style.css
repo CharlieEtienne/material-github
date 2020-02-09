@@ -421,4 +421,8 @@ ul.legend li:nth-of-type(4) {
 ul.legend li:nth-of-type(5) {
     background: hsl(174, 38%, 60%) !important;
 }
+.TimelineItem--condensed .TimelineItem-badge {
+    background-color: var(--bg3);
+    border-color: var(--bg3) !important;
+}
 }
