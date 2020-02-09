@@ -1,6 +1,11 @@
 @-moz-document domain("github.com") {
 :root{
-    /*[[theme]]*/
+    --bg1: hsl(229, 20%, 13%);
+    --bg2: hsl(229, 20%, 15%);
+    --bg3: hsl(229, 20%, 18%);
+    --bg4: hsl(229, 20%, 20%);
+    --bg5: hsl(229, 20%, 24%);
+    --bg6: hsl(229, 20%, 27%);
 
     --selected:  hsl(174, 38%, 66%);
     --selected2: hsl(174, 38%, 55%);
@@ -55,6 +60,12 @@ img, #browser table, #browser table th, #issues .menu ul li, .branches .more-bra
     background: var(--bg4) !important;
     color: #ccc!important;
     border: none !important;
+}
+.cm-s-github-light .CodeMirror-lines, .CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler {
+    background: var(--bg4) !important;
+}
+.cm-s-github-light .CodeMirror-gutters {
+	background: var(--bg2) !important;
 }
 #readme .plain, .readme .markdown-body, .readme .plain, .pull-request-composer, .drag-and-drop, .octofication .broadcast-icon-mask, .file .image, .merge-pr-more-commits, .coupons .coupon-form-body, .manage-repo-access-group, .saved-reply-form, .orghead .edit-org:hover, .octotree_views, .simple-box, .btn-link.timeline-progressive-disclosure-button, a.border.rounded-1, .Box:not([style*="background"]), .octotree_sidebar .octotree_bottom {
     background: var(--bg2) !important;
@@ -227,23 +238,26 @@ path.js-diff-placeholder {
 .pl-s .pl-s1, .pl-smi {
     color: #B2CCD6;
 }
-.pl-e, .pl-en {
+.pl-e, .pl-en, .cm-atom, .cm-builtin, .cm-variable-3 {
     color: 	#C792EA;
 }
-.pl-c1, .pl-s .pl-v {
+.pl-c1, .pl-s .pl-v, .cm-number, .cm-property {
     color: #82AAFF;
 }
-.pl-pds, .pl-s, .pl-s .pl-pse .pl-s1, .pl-sr, .pl-sr .pl-cce, .pl-sr .pl-sra, .pl-sr .pl-sre {
+.pl-pds, .pl-s, .pl-s .pl-pse .pl-s1, .pl-sr, .pl-sr .pl-cce, .pl-sr .pl-sra, .pl-sr .pl-sre, .cm-s-github-light .cm-string {
     color: 	#C3E88D;
 }
-.pl-ent {
+.pl-ent, .cm-tag {
     color: #FF5370;
 }
-.pl-k {
+.pl-k, .cm-def {
     color: #89DDFF;
 }
 .pl-smw, .pl-v {
     color: #F78C6C;
+}
+.cm-qualifier {
+	color: #FFCB6B;
 }
 .blob-code-deletion {
     background-color: hsla(353, 25%, 30%, 1);
@@ -335,5 +349,81 @@ path.js-diff-placeholder {
 }
 .orghead {
     background-color: var(--bg1);
+}
+
+.commit-ref .user {
+    color: var(--selected);
+}
+
+@media (min-width: 768px){
+	.page-responsive .pagehead {
+		background-color: var(--bg2)!important;
+	}
+}
+
+.blob-expanded .blob-code, .blob-expanded .blob-num {
+    background-color: var(--bg6);
+}
+
+.comment-reactions .user-has-reacted {
+    background-color: var(--bg1);
+}
+
+@media (min-width: 1012px) {
+	.border-lg-left {
+    	border-left: 1px solid var(--bg2)!important;
+	}
+	.border-lg-bottom {
+    	border-bottom: 1px solid var(--bg2)!important;
+	}
+	.border-lg-right {
+    	border-right: 1px solid var(--bg2)!important;
+	}
+	.border-lg-top {
+    	border-top: 1px solid var(--bg2)!important;
+	}
+}
+
+/* Profile Contributions */
+rect.day {
+    fill: hsl(174, 38%, 60%);
+}
+rect.day[data-count="0"] {
+    fill: var(--bg1) !important;
+}
+rect.day[data-count="1"],
+rect.day[data-count="2"],
+rect.day[data-count="3"],
+rect.day[data-count="4"] {
+	fill: hsl(174, 38%, 15%);
+}
+rect.day[data-count="5"],
+rect.day[data-count="6"],
+rect.day[data-count="7"],
+rect.day[data-count="8"],
+rect.day[data-count="9"] {
+	fill: hsl(174, 38%, 30%);
+}
+rect.day[data-count="10"],
+rect.day[data-count="11"],
+rect.day[data-count="12"],
+rect.day[data-count="13"],
+rect.day[data-count="14"] {
+	fill: hsl(174, 38%, 45%);
+}
+ul.legend li:nth-of-type(1) {
+    background: var(--bg1) !important;
+}
+ul.legend li:nth-of-type(2) {
+    background: hsl(174, 38%, 15%) !important;
+}
+ul.legend li:nth-of-type(3) {
+    background: hsl(174, 38%, 30%) !important;
+}
+ul.legend li:nth-of-type(4) {
+    background: hsl(174, 38%, 45%) !important;
+}
+ul.legend li:nth-of-type(5) {
+    background: hsl(174, 38%, 60%) !important;
 }
 }
