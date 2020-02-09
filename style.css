@@ -1,11 +1,6 @@
 @-moz-document domain("github.com") {
 :root{
-    --bg1: hsl(229, 20%, 13%);
-    --bg2: hsl(229, 20%, 15%);
-    --bg3: hsl(229, 20%, 18%);
-    --bg4: hsl(229, 20%, 20%);
-    --bg5: hsl(229, 20%, 24%);
-    --bg6: hsl(229, 20%, 27%);
+    /*[[theme]]*/
 
     --selected:  hsl(174, 38%, 66%);
     --selected2: hsl(174, 38%, 55%);
