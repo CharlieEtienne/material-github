@@ -272,7 +272,10 @@ path.js-diff-placeholder {
     background-color: hsla(135, 73%, 30%, 1);
 }
 .blob-code-deletion .x {
-	background-color: hsla(353, 73%, 30%, 1);
+    background-color: hsla(353, 73%, 30%, 1);
+}
+.blob-code-inner.highlighted, .blob-code-inner .highlighted {
+    background-color: hsla(39, 25%, 30%, 1);
 }
 .timeline-comment
 {
