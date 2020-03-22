@@ -482,4 +482,19 @@ div[style="background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255
     background-color: var(--bg6);
     border-color: var(--bg6);
 }
+.subnav-link.selected {
+    color: var(--selected) !important;
+    border-bottom-color: var(--selected);
+}
+@media (min-width: 768px){
+    .subnav-primary.selected {
+        border-bottom-color: var(--selected);
+    }
+}
+.btn-mktg{
+    border: 1px solid var(--btn2);
+}
+.btn-mktg:hover {
+    border-color: var(--btn1);
+}
 }
