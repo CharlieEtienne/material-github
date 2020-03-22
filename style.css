@@ -501,4 +501,9 @@ div[style="background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255
 .bg-blue-light {
     background-color: var(--bg6);
 }
+/* Footer subscribe button */
+.btn-outline-mktg {
+    color: var(--selected);
+    border-color: var(--btn2);
+}
 }
