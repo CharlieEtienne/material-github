@@ -468,11 +468,14 @@ ul.legend li:nth-of-type(5) {
 .pr-toolbar.is-stuck {
     background-color: var(--bg3);
 }
-/* Explore page hack */
+/* Explore page hacks */
 div[style="background-color: #fcfdfd;"] {
     background-color: var(--bg3)!important;
 }
 .Box-body>div:last-of-type {
+    background: linear-gradient(to top, var(--bg1), rgba(255,255,255,0))!important;
+}
+div[style="background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));"] {
     background: linear-gradient(to top, var(--bg1), rgba(255,255,255,0))!important;
 }
 }
