@@ -462,4 +462,7 @@ ul.legend li:nth-of-type(5) {
 .card-filter-autocomplete-dropdown .navigation-focus, .card-filter-autocomplete-dropdown [aria-selected=true] {
     background-color: var(--selected2);
 }
+.bg-yellow-light {
+    color: #000;
+}
 }
