@@ -506,4 +506,10 @@ div[style="background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255
     color: var(--selected);
     border-color: var(--btn2);
 }
+/* Marketplace */
+.MarketplaceBackground-buffer {
+    padding-top: 40px;
+    margin-top: -146px;
+    background: var(--bg1);
+}
 }
