@@ -497,4 +497,8 @@ div[style="background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255
 .btn-mktg:hover {
     border-color: var(--btn1);
 }
+/* Collections page https://github.com/collections */
+.bg-blue-light {
+    background-color: var(--bg6);
+}
 }
