@@ -465,4 +465,7 @@ ul.legend li:nth-of-type(5) {
 .user-status-container-border-busy {
     background-color: hsla(53, 100%, 50%, 0.11);
 }
+.pr-toolbar.is-stuck {
+    background-color: var(--bg3);
+}
 }
