@@ -462,7 +462,63 @@ ul.legend li:nth-of-type(5) {
 .card-filter-autocomplete-dropdown .navigation-focus, .card-filter-autocomplete-dropdown [aria-selected=true] {
     background-color: var(--selected2);
 }
-.bg-yellow-light {
-    color: #000;
+.user-status-container-border-busy {
+    background-color: hsla(53, 100%, 50%, 0.11);
 }
+.pr-toolbar.is-stuck {
+    background-color: var(--bg3);
+}
+/* Explore page hacks */
+div[style="background-color: #fcfdfd;"] {
+    background-color: var(--bg3)!important;
+}
+.Box-body>div:last-of-type {
+    background: linear-gradient(to top, var(--bg1), rgba(255,255,255,0))!important;
+}
+div[style="background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));"] {
+    background: linear-gradient(to top, var(--bg1), rgba(255,255,255,0))!important;
+}
+.tabnav-tab.selected, .tabnav-tab[aria-current], .tabnav-tab[aria-selected=true] {
+    background-color: var(--bg6);
+    border-color: var(--bg6);
+}
+.subnav-link.selected {
+    color: var(--selected) !important;
+    border-bottom-color: var(--selected);
+}
+@media (min-width: 768px){
+    .subnav-primary.selected {
+        border-bottom-color: var(--selected);
+    }
+}
+.btn-mktg{
+    border: 1px solid var(--btn2);
+}
+.btn-mktg:hover {
+    border-color: var(--btn1);
+}
+/* Collections page https://github.com/collections */
+.bg-blue-light {
+    background-color: var(--bg6);
+}
+/* Footer subscribe button */
+.btn-outline-mktg {
+    color: var(--selected);
+    border-color: var(--btn2);
+}
+/* Marketplace */
+.MarketplaceBackground-buffer {
+    padding-top: 40px;
+    margin-top: -146px;
+    background: var(--bg1);
+}
+
+/* Refined GitHub */
+.dashboard .js-all-activity-header + div {
+    background-color: var(--bg1);
+    border-color:  var(--bg1);
+}
+.bg-yellow-light {
+  color: #000;
+ }
 }
