@@ -512,4 +512,10 @@ div[style="background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255
     margin-top: -146px;
     background: var(--bg1);
 }
+
+/* Refined GitHub */
+.dashboard .js-all-activity-header + div {
+    background-color: var(--bg1);
+    border-color:  var(--bg1);
+}
 }
