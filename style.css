@@ -713,4 +713,7 @@ code .il {
 code .kc {
 	color: #f07178
 }
+.deprecation-notice {
+    background: hsla(21, 24%, 14%, 1);
+}
 }
