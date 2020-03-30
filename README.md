@@ -1,5 +1,6 @@
 # Material Theme for GitHub
 A Material Dark Theme for GitHub
+3 themes available : Oceanic, Darker, Palenight
 
 Based on awesome **[VSCode Material Theme](https://github.com/equinusocio/vsc-material-theme)** by **Mattia Astorino**
 
