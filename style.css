@@ -814,4 +814,48 @@ code .kc {
 .jump-to-suggestions-results-container .navigation-focus .jump-to-suggestions-path,.jump-to-suggestions-results-container [aria-selected=true] .jump-to-suggestions-path{
     background: var(--selected2) !important;
 }
+
+/* PULSE */
+.code-frequency .addition {
+    fill: #2cbe87 !important;
+}
+.code-frequency .deletion {
+    fill: #cb244b !important;
+}
+.cadd, .summary-stats li .octicon-issue-opened, .summary-stats li .octicon-git-branch, .authors-and-code .insertions{
+	color: #2cbe87 !important;
+}
+.cdel, .summary-stats li .octicon-issue-closed, .authors-and-code .deletions{
+	color: #cb244b !important;
+}
+.bg-green, .State--green {
+	background: #2cbe87 !important;
+}
+.bg-red, .State--red {
+	background: #cb244b !important;
+}
+.summary-stats li, .summary-stats li .num, ul.summary-stats li a,.diffstat-summary {
+    color: rgba(255,255,255,0.6) !important;
+}
+.diffstat-summary strong {
+    color: rgba(255, 255, 255, 0.8);
+}
+.graph-canvas text {
+	fill: rgba(255,255,255,0.6) !important;
+}
+.simple-conversation-list>li {
+    border-top: 1px solid var(--bg4);
+}
+.community-checklist .progress {
+    background-color: var(--bg5);
+}
+.community-checklist .Box-row {
+	border-top: 1px solid var(--bg3) !important;
+}
+.graph-canvas .axis line {
+    stroke: var(--bg5);
+}
+.network .current-repository {
+    background-color: hsla(52, 100%, 50%, 0.15);
+}
 }
