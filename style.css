@@ -798,4 +798,7 @@ code .kc {
 .repository-content .commit-group-title .octicon-git-commit {
     background: var(--bg3) !important;
 }
+.dropdown-divider {
+    border-top: 1px solid var(--bg4);
+}
 }
