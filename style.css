@@ -795,4 +795,7 @@ code .kc {
 .discussion-item-icon {
     color: rgba(255, 255, 255, 0.6);
 }
+.repository-content .commit-group-title .octicon-git-commit {
+    background: var(--bg3) !important;
+}
 }
