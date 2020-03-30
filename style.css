@@ -792,4 +792,7 @@ code .kc {
 .reaction-sort-item:focus, .reaction-sort-item:hover {
     background-color: var(--selected2);
 }
+.discussion-item-icon {
+    color: rgba(255, 255, 255, 0.6);
+}
 }
