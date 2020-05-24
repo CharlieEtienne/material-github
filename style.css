@@ -548,7 +548,7 @@ div[style="background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255
 .site-header-nav .dropdown-menu a .octicon-check {
 	color: #fff;
 }
-.content .sectionbody .dlist dt, .content .verseblock-content, .content dl code, .content h2 code, .content h3 code, .content h4 code, .content ol code, .content p>tt, .content table code, .content ul code, p code {
+.content .sectionbody .dlist dt, .content .verseblock-content, .content dl code, .content h2 code, .content h3 code, .content h4 code, .content ol code, .content p>tt, .content table code, .content ul code, p code, ul li code {
     border: 1px solid var(--bg4) !important;
     background-color: var(--bg4) !important;
 }
