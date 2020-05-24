@@ -261,17 +261,17 @@ path.js-diff-placeholder {
 	color: #FFCB6B;
 }
 .blob-code-deletion {
-    background-color: hsla(353, 25%, 30%, 1);
+    background-color: hsla(353, 25%, 21%, 1);
 }
 .blob-num-deletion {
-    background-color: hsla(353, 25%, 25%, 1);
+    background-color: hsla(353, 25%, 16%, 1);
     border-color: hsla(353, 25%, 20%, 1);
 }
 .blob-code-addition {
-    background-color: hsla(137, 25%, 30%, 1);
+    background-color: hsla(137, 25%, 21%, 1);
 }
 .blob-num-addition {
-    background-color: hsla(137, 25%, 25%, 1);
+    background-color: hsla(137, 25%, 16%, 1);
     border-color: hsla(137, 25%, 20%, 1);
 }
 .blob-code-addition .x {
