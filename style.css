@@ -511,7 +511,7 @@ div[style="background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255
 }
 /* Collections page https://github.com/collections */
 .bg-blue-light {
-    background-color: var(--bg6);
+    background-color: var(--bg6) !important;
 }
 /* Footer subscribe button */
 .btn-outline-mktg {
