@@ -313,7 +313,7 @@ path.js-diff-placeholder {
     padding: 3px;
 }
 .menu-item.selected {
-	background-color: var(--bg4)
+	background-color: var(--bg4) !important;
 }
 .menu .menu-item:hover{
 	background-color: var(--bg5) !important;
