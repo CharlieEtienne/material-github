@@ -1,3 +1,5 @@
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css)
+
 # Material Theme for GitHub
 A Material Dark Theme for GitHub
 
