@@ -3,8 +3,6 @@
 # Material Theme for GitHub
 A Material Dark Theme for GitHub
 
-3 themes available : Oceanic, Darker, Palenight
-
 Based on awesome **[VSCode Material Theme](https://github.com/equinusocio/vsc-material-theme)** by **Mattia Astorino**
 
 ![Material Theme GitHub](https://github.com/CharlieEtienne/github-material/blob/master/screenshot.png)
@@ -13,60 +11,15 @@ Based on awesome **[VSCode Material Theme](https://github.com/equinusocio/vsc-ma
 
 1. Install **Stylus Extension** [for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [for Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/) or [for Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
 
-2. Install [https://userstyles.org/styles/174317/material-dark-github](https://userstyles.org/styles/174317/material-dark-github) 
+2. Install [Theme](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css) 
 
-## Using the theme without userstyles.org
+## Settings
 
-This theme is dynamic. It means you can choose between three different variations when you install it from userstyles.org.
+3 themes are available : Oceanic, Darker, Palenight
 
-In order to make the theme work in standalone, you will need to replace the following string `/*[[theme]]*/` located on the top of `style.css` file with one of these theme variations. Each one contains 6 different colors.
+Or you can choose Custom theme and play with hue, saturation, and lightness cursors to have your own variations.
 
-### Oceanic theme
-
-```css
---bg1: hsl(200, 19%, 13%);
---bg2: hsl(200, 19%, 15%);
---bg3: hsl(200, 19%, 18%);
---bg4: hsl(200, 19%, 20%);
---bg5: hsl(200, 19%, 24%);
---bg6: hsl(200, 19%, 27%);
-```
-
-### Darker theme
-
-```css
---bg1: hsl(0, 0%, 13%);
---bg2: hsl(0, 0%, 15%);
---bg3: hsl(0, 0%, 18%);
---bg4: hsl(0, 0%, 20%);
---bg5: hsl(0, 0%, 24%);
---bg6: hsl(0, 0%, 27%);
-```
-
-### Palenight theme
-
-```css
---bg1: hsl(229, 20%, 13%);
---bg2: hsl(229, 20%, 15%);
---bg3: hsl(229, 20%, 18%);
---bg4: hsl(229, 20%, 20%);
---bg5: hsl(229, 20%, 24%);
---bg6: hsl(229, 20%, 27%);
-```
-
-As you can see all colors are based on hue, saturation, and luminosity variations.
-It means that you can replace it with your own colors very easily. Just play with the two first values (hue and saturation) and you might obtain something cool.
-
-For example, for a "aubergine" theme:
-
-```css
---bg1: hsl(300, 20%, 13%);
---bg2: hsl(300, 20%, 15%);
---bg3: hsl(300, 20%, 18%);
---bg4: hsl(300, 20%, 20%);
---bg5: hsl(300, 20%, 24%);
---bg6: hsl(300, 20%, 27%);
-```
+You can also choose from 23 accents colors, or make your own.
 
 ## Disclaimer
 
