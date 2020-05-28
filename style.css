@@ -874,4 +874,7 @@ code .kc {
     background-color: var(--bg3);
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAiCAYAAADbLB6TAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARZJREFUeNrsml0OhCAQg8XsKXr/s3ENNruJLy5Z+ZmBTtK+GRWajzqIkkoph+SnUwgEWIAlARZgAZYEmFEvhzZxO87kDFz9JsOFBh7O5wBwzf1aAUbjdTkAWFO/s4AxeF8OANfE7+n4eGWHgZkFO1oSsDLBvbWWoTZjl99ewDOTAjZAnoFl4rcVsNWorkwzGPy2APZInmeaPQZx2O8/wCseabCA8Gq/Bnj1pGTRH0vp+enrDnjHRDTb9y7PTf1egFmWuT0+2F//vh4+gEEAtjcdbJ4xspLbuZxlLAlDfmsJZvvqhckB2er3JIfb4ikz+70SzP5RvJaOCJ6RAu7siRSII2nrlK/001OABVgSYAEWYGlMbwEGAEa2bc+YyRBvAAAAAElFTkSuQmCC);
 }
+.Box-row--gray {
+    background-color: var(--bg1);
+}
 }
