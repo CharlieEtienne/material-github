@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.0.0
+@version      3.0.1
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -46,7 +46,7 @@
 	slate "Slate" <<<EOT 200 EOT;
 	custom "Custom accent" <<<EOT var(--custom_accent, none) EOT;
 }
-@var range custom_accent "Custom theme hue" [0, 0, 360, 1, ""]
+@var range custom_accent "Custom accent hue" [0, 0, 360, 1, ""]
 ==/UserStyle== */
 @-moz-document domain("github.com") {
 :root{
