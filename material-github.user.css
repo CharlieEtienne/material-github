@@ -20,6 +20,7 @@
 }
 @var range hue "Custom theme hue" [0, 0, 360, 1, ""]
 @var range saturation "Custom theme saturation" [100, "%"]
+@var range lightness "Custom theme Lightness" [1, 0.1, 1.9, 0.1, ""]
 @advanced dropdown accent "Accent" {
 	turquoise "Turquoise" <<<EOT 174 EOT;
 	tomato "Tomato" <<<EOT 4 EOT;
@@ -54,12 +55,12 @@
 	--hue: /*[[hue]]*/;
 	--saturation: /*[[saturation]]*/;
 	
-	--bg1: hsl(/*[[theme]]*/, 13%);
-	--bg2: hsl(/*[[theme]]*/, 15%);
-	--bg3: hsl(/*[[theme]]*/, 18%);
-	--bg4: hsl(/*[[theme]]*/, 20%);
-	--bg5: hsl(/*[[theme]]*/, 24%);
-	--bg6: hsl(/*[[theme]]*/, 27%);
+	--bg1: hsl(/*[[theme]]*/, calc(13% * /*[[lightness]]*/));
+	--bg2: hsl(/*[[theme]]*/, calc(15% * /*[[lightness]]*/));
+	--bg3: hsl(/*[[theme]]*/, calc(18% * /*[[lightness]]*/));
+	--bg4: hsl(/*[[theme]]*/, calc(20% * /*[[lightness]]*/));
+	--bg5: hsl(/*[[theme]]*/, calc(24% * /*[[lightness]]*/));
+	--bg6: hsl(/*[[theme]]*/, calc(27% * /*[[lightness]]*/));
 	
 	--custom_accent: /*[[custom_accent]]*/;
 
