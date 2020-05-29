@@ -5,7 +5,7 @@ A Material Dark Theme for GitHub
 
 Based on awesome **[VSCode Material Theme](https://github.com/equinusocio/vsc-material-theme)** by **Mattia Astorino**
 
-![Material Theme GitHub](https://github.com/CharlieEtienne/github-material/blob/master/screenshot.png)
+![Material Theme GitHub](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.gif)
 
 ## How to use it
 
