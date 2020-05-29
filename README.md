@@ -11,7 +11,19 @@ Based on awesome **[VSCode Material Theme](https://github.com/equinusocio/vsc-ma
 
 1. Install **Stylus Extension** [for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [for Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/) or [for Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
 
-2. Install [Theme](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css) 
+2. Install theme: [Click to install with Stylus](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css) 
+
+------
+
+> **IMPORTANT NOTICE - 29/05/2020**
+>
+> The theme moved from userstyles.org to GitHub since userstyles.org is completely broken and unmaintened. For those who already installed [this theme](https://userstyles.org/styles/174317/material-dark-github), you will need to reinstall it by clicking [this link](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css) if you want to get next updates and to enjoy the new configurator.
+>
+> It is a breaking change so you may lose some of your previous customization. Since it's a completely different theme, you will have to copy and paste your custom code into the new theme after having installed it.
+>
+> From 29/05/2020, the theme on https://userstyles.org/styles/174317/material-dark-github won't receive new updates.
+
+------
 
 ## Settings
 
