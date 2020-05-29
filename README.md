@@ -26,6 +26,8 @@ Based on awesome **[VSCode Material Theme](https://github.com/equinusocio/vsc-ma
 ------
 
 ## Settings
+![Find settings](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/settings.png)
+![Options](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/options.png)
 
 3 themes are available : Oceanic, Darker, Palenight
 
