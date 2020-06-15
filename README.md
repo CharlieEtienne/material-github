@@ -1,4 +1,4 @@
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20%20with-Stylus-00adad.svg?style=for-the-badge&logo=stylus)](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css) [![Donate](https://img.shields.io/badge/Donate-PayPal-0070ba.svg?style=for-the-badge&logo=paypal)](https://paypal.me/webnancy)
 
 # Material Theme for GitHub
 A Material Dark Theme for GitHub
