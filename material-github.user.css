@@ -352,7 +352,7 @@ path.js-diff-placeholder {
     color: inherit;
 }
 /* comments */
- .comment-body, .markdown-body, .js-comment-body {
+ .comment-body, .markdown-body, .js-comment-body, .review-comment {
     color: rgba(255, 255, 255, 0.7) !important;
 }
 /* timeline background lines, badges, etc */
