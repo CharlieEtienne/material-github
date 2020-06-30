@@ -577,9 +577,9 @@
 	div[style="background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));"] {
 		background: linear-gradient(to top, var(--bg1), rgba(255,255,255,0))!important;
 	}
-	.tabnav-tab.selected, .tabnav-tab[aria-current], .tabnav-tab[aria-selected=true] {
-		background-color: var(--bg6);
-		border-color: var(--bg6);
+	.tabnav-tab.selected, .tabnav-tab[aria-current]:not([aria-current=false]), .tabnav-tab[aria-selected=true] {
+	    background-color: var(--bg3) !important;
+	    border-color: var(--bg5) !important;
 	}
 	.subnav-link.selected {
 		color: var(--selected) !important;
