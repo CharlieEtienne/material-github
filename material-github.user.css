@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.1.3
+@version      3.1.4
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -943,5 +943,9 @@ code .kc {
 }
 .project-header {
     outline-color: var(--bg2) !important;
+}
+.tabnav-tab.selected, .tabnav-tab[aria-current]:not([aria-current=false]), .tabnav-tab[aria-selected=true] {
+    background-color: var(--bg4);
+    border-color: var(--bg4);
 }
 }
