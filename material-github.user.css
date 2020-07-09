@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.2.3
+@version      3.2.4
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1026,5 +1026,8 @@
 	}
 	.tree-browser-result[aria-selected=true] .octicon-chevron-right {
 		color: var(--btn);
+	}
+	.color-blue-3 {
+	    color: var(--btn2)!important;
 	}
 }
