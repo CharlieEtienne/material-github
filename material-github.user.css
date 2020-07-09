@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.2.2
+@version      3.2.3
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1019,5 +1019,12 @@
 	/* github.com/explore background-color hack */
 	main [style="background-color: #fcfdfd;"] {
 		background-color: var(--bg4) !important;
+	}
+	
+	.tree-browser-result[aria-selected=true] {
+	    background-color: var(--bg6) !important;
+	}
+	.tree-browser-result[aria-selected=true] .octicon-chevron-right {
+		color: var(--btn);
 	}
 }
