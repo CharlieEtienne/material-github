@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.2.7
+@version      3.2.8
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1038,5 +1038,12 @@
 	}
 	.project-issue-body-blur {
 	    background: linear-gradient(0deg,var(--bg3),hsla(0,0%,100%,0));
+	}
+	.notifications-list-item.navigation-focus {
+	    background-color: var(--bg4);
+	    box-shadow: inset 2px 0 0 var(--selected);
+	}
+	.notifications-list-item.navigation-focus .notification-list-item-link {
+	    color: #fff !important;
 	}
 }
