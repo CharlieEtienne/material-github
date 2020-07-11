@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.2.11
+@version      3.2.12
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1051,5 +1051,11 @@
 	}
 	.commit-form:after {
 	    border-right-color: var(--bg1);
+	}
+	@media (min-width: 544px){
+		.project-column:focus {
+		    border-color: var(--selected2)!important;
+		    box-shadow: 0 0 0 0.2em var(--btn4);
+		}
 	}
 }
