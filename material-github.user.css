@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.2.8
+@version      3.2.9
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1045,5 +1045,8 @@
 	}
 	.notifications-list-item.navigation-focus .notification-list-item-link {
 	    color: #fff !important;
+	}
+	.timeline-comment--caret.current-user:after {
+	    border-right-color: var(--btn2);
 	}
 }
