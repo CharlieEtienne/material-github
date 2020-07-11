@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.2.6
+@version      3.2.7
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1035,5 +1035,8 @@
 	}
 	.progress-bar:not(.anim-grow-x), .Progress{
 		background: var(--bg7);
+	}
+	.project-issue-body-blur {
+	    background: linear-gradient(0deg,var(--bg3),hsla(0,0%,100%,0));
 	}
 }
