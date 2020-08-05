@@ -1071,10 +1071,10 @@
 		border-color: var(--bg2) !important;
 	}
 	.dashboard-rollup-items .body {
-		border-top: 1px solid var(--bg3) !important;
+		border-top: 1px solid var(--bg4) !important;
 	}
 
-	/* Repo, Readme.md, checkbox (Pick From "Github Ice Dark(Updated)", by rouzbeh84 + JZersche, from userstyle.org) */
+	/* Repo, Readme.md, checkbox (Pick From "Github Ice Dark(Updated)", by rouzbeh84 + JZersche, from userstyles.org) */
 	input[type="checkbox"],
 	input[type="checkbox"]:focus,
 	input[type="checkbox"]:hover:active,
@@ -1117,33 +1117,84 @@
 	}
 
 	/* Home, Sourcegraph - Chrome Exetnsion */
+	.command-list,
 	.show.chromed-list-popover.Box .popvoer-inner .command-list {
-		background-color: var(--bg2) !important;
-	}
-	.command-list {
-		background-color: var(--bg2) !important;
+		background-color: var(--bg4) !important;
 	}
 
 	/* Github Hovercard - Chrome Extension */
-	.ghh-theme-github .tooltipster-box .tooltipster-content {
-		background-color: var(--bg4) !important;
+	.ghh-stats,
+	.ghh-theme-github,
+	.tooltipster-box,
+	.tooltipster-top,
+	.tooltipster-bottom,
+	.tooltipster-content,
+	.tooltipster-arrow-border,
+	.tooltipster-arrow-background {
 		border-color: var(--bg4) !important;
+		background-color: var(--bg4) !important;
 	}
-	.ghh-theme-github .tooltipster-top .tooltipster-arrow-border {
-		border-top-color: var(--bg4) !important;
+
+	.ghh-stats > a + a {
+		border-left: 1px solid var(--bg6) !important;
 	}
-	.ghh-theme-github .tooltipster-top .tooltipster-arrow-background {
-		border-top-color: var(--bg4) !important;
+
+	.ghh-markdown-separator,
+	.ghh-more-separator {
+		border-bottom: 1px solid var(--bg6) !important;
 	}
-	.ghh-theme-github .tooltipster-bottom .tooltipster-arrow-border {
-		border-bottom-color: var(--bg4);
+
+	.ghh-issue-body {
+		background-color: var(--bg2)!important;
+		color: rgba(255, 255, 255, 0.65) !important;
 	}
-	.ghh-theme-github .tooltipster-bottom .tooltipster-arrow-background {
-		border-bottom-color: var(--bg4);
+
+	.ghh-readme pre,
+	.ghh-issue-body pre {
+		background: var(--bg4) !important;
+		color: #ccc !important;
+		border: none !important;
 	}
+
+	.ghh-stats span {
+		color: white!important;
+	}
+
+	.ghh-state-open {
+		color: rgb(44, 190, 78)!important;
+		border-color: var(--bg) !important;
+		background-color: var(--bg4) !important;
+	}
+
 	.ghh-state-verified {
 		color: rgb(34, 134, 58) !important;
 		border-color: var(--bg) !important;
 		background-color: var(--bg3) !important;
+	}
+
+	/* Repo, Releases, Releases */
+	.release-main-section {
+		border-left: 2px solid var(--bg5)!important;
+	}
+
+	.SelectMenu-list,
+	a.SelectMenu-item {
+		background-color: var(--bg)!important;
+	}
+
+	.select-menu-list {
+		background-color: var(--bg);
+		border-top: 0px solid var(--bg5)!important;
+	}
+
+	.select-menu-text-filter:first-child:last-child {
+		padding-bottom: 10px;
+		border-bottom: 1px solid var(--bg5)!important;
+	}
+
+	/* Repo, Actions */
+	.CheckRun-header {
+		border-top: 1px solid var(--bg2);
+		border-bottom: none;
 	}
 }
