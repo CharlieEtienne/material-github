@@ -1063,5 +1063,87 @@
 	}
 	.Label--gray-darker {
 	    color: #6a737d;
+    }
+    
+	/* Home, dashboard */
+	.dashboard .js-all-activity-header + div {
+		background-color: var(--bg2) !important;
+		border-color: var(--bg2) !important;
+	}
+	.dashboard-rollup-items .body {
+		border-top: 1px solid var(--bg3) !important;
+	}
+
+	/* Repo, Readme.md, checkbox (Pick From "Github Ice Dark(Updated)", by rouzbeh84 + JZersche, from userstyle.org) */
+	input[type="checkbox"],
+	input[type="checkbox"]:focus,
+	input[type="checkbox"]:hover:active,
+	input[type="checkbox"]:disabled,
+	input[type="checkbox"]:hover:disabled,
+	input[type="checkbox"]:hover:active:disabled {
+		-webkit-appearance: none !important;
+		background-color: #25272a !important;
+		border: 1px solid #484848 !important;
+		color: #eee !important;
+		height: 1em !important;
+		width: 1em !important;
+	}
+	input[type="checkbox"]:checked {
+		background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48Zz48cmVjdCBoZWlnaHQ9IjUxMiIgd2lkdGg9IjUxMiIgeT0iMCIgeD0iMCIgZmlsbD0iIzAwMDAwMCIvPjxwYXRoIGQ9Im05OC43OTk5ODggMjEzbC0wLjc5OTk4OCA4OWMwIDAgMTAzIDEwMiAxMDQgMTAyYzEgMCAyMDUgLTIwMSAyMDUgLTIwMWMwIDAgMCAtOTAgMCAtOTFjLTAuNzk5OTg4IDAgLTIwNCAyMDMgLTIwNCAyMDNsLTEwNCAtMTAyeiIgZmlsbD0iI2RkZGRkZCIvPjwvZz48L3N2Zz4KCg==) !important;
+		background-size: cover !important;
+	}
+
+	/* Repo, Security, SideNav */
+	.SideNav {
+		background-color: var(--bg2) !important;
+	}
+	.SideNav-item {
+		border-top: 1px solid var(--bg3) !important;
+	}
+	.SideNav-item[aria-current]:not([aria-current="false"]),
+	.SideNav-item[aria-selected="true"] {
+		background-color: var(--bg4) !important;
+	}
+	.SideNav-item:focus,
+	.SideNav-item:hover {
+		background-color: var(--bg5) !important;
+	}
+
+	/* Repo, Insights,> Forks */
+	.network-tree {
+		width: 26px !important;
+		height: 0 !important;
+		padding-top: 22px !important;
+	}
+
+	/* Home, Sourcegraph - Chrome Exetnsion */
+	.show.chromed-list-popover.Box .popvoer-inner .command-list {
+		background-color: var(--bg2) !important;
+	}
+	.command-list {
+		background-color: var(--bg2) !important;
+	}
+
+	/* Github Hovercard - Chrome Extension */
+	.ghh-theme-github .tooltipster-box .tooltipster-content {
+		background-color: var(--bg4) !important;
+		border-color: var(--bg4) !important;
+	}
+	.ghh-theme-github .tooltipster-top .tooltipster-arrow-border {
+		border-top-color: var(--bg4) !important;
+	}
+	.ghh-theme-github .tooltipster-top .tooltipster-arrow-background {
+		border-top-color: var(--bg4) !important;
+	}
+	.ghh-theme-github .tooltipster-bottom .tooltipster-arrow-border {
+		border-bottom-color: var(--bg4);
+	}
+	.ghh-theme-github .tooltipster-bottom .tooltipster-arrow-background {
+		border-bottom-color: var(--bg4);
+	}
+	.ghh-state-verified {
+		color: rgb(34, 134, 58) !important;
+		border-color: var(--bg) !important;
+		background-color: var(--bg3) !important;
 	}
 }
