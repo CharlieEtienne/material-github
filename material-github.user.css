@@ -1183,7 +1183,7 @@
 	}
 
 	.select-menu-list {
-		background-color: var(--bg);
+		background-color: var(--bg)!important;
 		border-top: 0px solid var(--bg5)!important;
 	}
 
@@ -1194,7 +1194,16 @@
 
 	/* Repo, Actions */
 	.CheckRun-header {
-		border-top: 1px solid var(--bg2);
-		border-bottom: none;
+		border-top: 1px solid var(--bg2)!important;
+		border-bottom: none!important;
+	}
+
+	/* Repo, recent pushes */
+	.Box-row--yellow {
+		background-color: var(--bg3)!important;
+		color: var(--bg5)!important;
+	}
+	.flex-auto {
+		color: gray!important;
 	}
 }
