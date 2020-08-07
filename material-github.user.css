@@ -1065,6 +1065,15 @@
 	    color: #6a737d;
     }
 
+	/* Header */
+	.Header-link {
+		color: rgba(255, 255, 255, 0.6) !important;
+	}
+	.Header-link:focus,
+	.Header-link:hover {
+		color: var(--selected) !important;
+	}
+
 	/* Home, Repositories */
 	button.width-full.text-left.btn-link.f6.muted-link,
 	h2.hide-sm.hide-md.f5.mb-1.border-top.pt-3 {
