@@ -1065,13 +1065,60 @@
 	    color: #6a737d;
     }
 
-	/* Home, dashboard */
+	/* Home, Repositories */
+	button.width-full.text-left.btn-link.f6.muted-link,
+	h2.hide-sm.hide-md.f5.mb-1.border-top.pt-3 {
+		border-top: 1px solid var(--bg4)!important;
+		color: rgba(255, 255, 255, 0.6) !important;
+	}
+	button.width-full.text-left.btn-link.f6.muted-link {
+		border-top: none!important;
+	}
+	button.width-full.text-left.btn-link.f6.muted-link:hover {
+		color: var(--selected) !important;
+	}
+
+	/* Home, Recent activity */
+	.js-show-more-recent-items,
+	li.Box-row.d-flex.p-2,
+	li.d-flex.border-top.p-2.position-relative {
+		border-top: 1px solid var(--bg3)!important;
+	}
+	li.Box-row.d-flex.p-2:first-of-type {
+		border-top-color: transparent!important;
+	}
+	.js-details-target.js-show-more-recent-items {
+		background-color: var(--bg2)!important;
+		color: rgba(255, 255, 255, 0.6) !important;
+	}
+	.Box-row--hover-blue:hover {
+		background-color: var(--bg3)!important;
+	}
+	.link-gray:hover {
+		color: var(--selected)!important;
+	}
+
+	/* Home, All activity */
 	.dashboard .js-all-activity-header + div {
 		background-color: var(--bg2) !important;
 		border-color: var(--bg2) !important;
 	}
 	.dashboard-rollup-items .body {
 		border-top: 1px solid var(--bg4) !important;
+	}
+	.js-news-feed-event-group.border-bottom {
+		border-bottom: 1px solid var(--bg4)!important;
+	}
+	.js-news-feed-event-group.border-bottom .d-flex.d-flex.flex-items-baseline.py-3 {
+		border-bottom: none!important;
+	}
+	.d-flex.flex-items-baseline.py-3 {
+		border-bottom: 1px solid var(--bg4)!important;
+	}
+
+	/* Home, Explore repositories */
+	.py-2.my-2.border-bottom {
+		border-color: var(--bg2) !important;
 	}
 
 	/* Profile, Repositories, Type & Language */
@@ -1192,8 +1239,15 @@
 
 	/* Home, Sourcegraph - Chrome Exetnsion */
 	.command-list,
-	.show.chromed-list-popover.Box .popvoer-inner .command-list {
-		background-color: var(--bg4) !important;
+	.show.chromed-list-popover.Box .popvoer-inner .command-list,
+	.flex-items-center.jump-to-suggestions-path.p-2 {
+		background-color: var(--bg1) !important;
+	}
+	.show.command-list-popover.Box {
+		border-color: var(--bg5)!important;
+	}
+	.navigation-focus .flex-auto {
+		color: var(--selected) !important;
 	}
 
 	/* Github Hovercard - Chrome Extension */
@@ -1206,6 +1260,7 @@
 	.tooltipster-arrow-background {
 		border-color: var(--bg4) !important;
 		background-color: var(--bg4) !important;
+		color: rgba(255, 255, 255, 0.7) !important;
 	}
 
 	.ghh-stats {
