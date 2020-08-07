@@ -1064,7 +1064,7 @@
 	.Label--gray-darker {
 	    color: #6a737d;
     }
-    
+
 	/* Home, dashboard */
 	.dashboard .js-all-activity-header + div {
 		background-color: var(--bg2) !important;
@@ -1072,6 +1072,34 @@
 	}
 	.dashboard-rollup-items .body {
 		border-top: 1px solid var(--bg4) !important;
+	}
+
+	/* Profile, Repositories, Type & Language */
+	.SelectMenu-item[aria-checked=true] {
+		color: rgba(255, 255, 255, 0.3)!important;
+	}
+
+	/* Profile, Overview, Customize your pins */
+	.pinned-item-name {
+		color: rgba(255, 255, 255, 0.3)!important;
+	}
+	.pinned-item-checkbox:checked + .pinned-item-name {
+		background-color: var(--bg3)!important;
+	}
+
+	/* Marketplace, Apps */
+	.topic-tag-outline {
+		box-shadow: inset 0 0 0 1px var(--btn)!important;
+	}
+	.ScreenshotCarousel-nav {
+		box-shadow: inset 0 1px 0 var(--bg3)!important;
+	}
+	.ScreenshotCarousel-navitem {
+		border: 1px solid var(--bg3)!important;
+	}
+	.Label--outline {
+		color: rgba(255, 255, 255, 0.3)!important;
+		border-color: var(--bg6);
 	}
 
 	/* Repo, Readme.md, checkbox (Pick From "Github Ice Dark(Updated)", by rouzbeh84 + JZersche, from userstyles.org) */
@@ -1116,6 +1144,52 @@
 		padding-top: 22px !important;
 	}
 
+	/* Repo, Releases, Releases */
+	.release-main-section {
+		border-left: 2px solid var(--bg5)!important;
+	}
+
+	.SelectMenu-list,
+	a.SelectMenu-item {
+		background-color: var(--bg)!important;
+	}
+
+	.select-menu-list {
+		background-color: var(--bg);
+		border-top: 0px solid var(--bg5)!important;
+	}
+
+	.select-menu-text-filter:first-child:last-child {
+		padding-bottom: 10px;
+		border-bottom: 1px solid var(--bg5)!important;
+	}
+
+	/* Repo, Actions */
+	.bg-gray-dark {
+		background-color: var(--bg1)!important;
+	}
+	.CheckRun-header {
+		border-top: 1px solid var(--bg2)!important;
+		border-bottom: none;
+	}
+	.CheckRun {
+		background-color: var(--bg3)!important;
+	}
+
+	/* Repo, recent pushes */
+	.Box-row--yellow {
+		background-color: var(--bg3)!important;
+		color: var(--bg5)!important;
+	}
+	.flex-auto {
+		color: rgba(255, 255, 255, 0.7) !important
+	}
+
+	/* Repo, ??? */
+	.merge-status-list {
+		border-top: 1px solid var(--bg5)!important;
+	}
+
 	/* Home, Sourcegraph - Chrome Exetnsion */
 	.command-list,
 	.show.chromed-list-popover.Box .popvoer-inner .command-list {
@@ -1123,7 +1197,6 @@
 	}
 
 	/* Github Hovercard - Chrome Extension */
-	.ghh-stats,
 	.ghh-theme-github,
 	.tooltipster-box,
 	.tooltipster-top,
@@ -1135,8 +1208,28 @@
 		background-color: var(--bg4) !important;
 	}
 
+	.ghh-stats {
+		border-color: var(--bg4) !important;
+	}
+
+	.ghh-stats span {
+		color: rgba(255, 255, 255, 0.7) !important;
+	}
+
 	.ghh-stats > a + a {
 		border-left: 1px solid var(--bg6) !important;
+	}
+
+	.ghh-state-open {
+		color: rgb(44, 190, 78)!important;
+		border-color: var(--bg) !important;
+		background-color: var(--bg4) !important;
+	}
+
+	.ghh-state-verified {
+		color: rgb(34, 134, 58) !important;
+		border-color: var(--bg) !important;
+		background-color: var(--bg3) !important;
 	}
 
 	.ghh-markdown-separator,
@@ -1154,56 +1247,5 @@
 		background: var(--bg4) !important;
 		color: #ccc !important;
 		border: none !important;
-	}
-
-	.ghh-stats span {
-		color: white!important;
-	}
-
-	.ghh-state-open {
-		color: rgb(44, 190, 78)!important;
-		border-color: var(--bg) !important;
-		background-color: var(--bg4) !important;
-	}
-
-	.ghh-state-verified {
-		color: rgb(34, 134, 58) !important;
-		border-color: var(--bg) !important;
-		background-color: var(--bg3) !important;
-	}
-
-	/* Repo, Releases, Releases */
-	.release-main-section {
-		border-left: 2px solid var(--bg5)!important;
-	}
-
-	.SelectMenu-list,
-	a.SelectMenu-item {
-		background-color: var(--bg)!important;
-	}
-
-	.select-menu-list {
-		background-color: var(--bg)!important;
-		border-top: 0px solid var(--bg5)!important;
-	}
-
-	.select-menu-text-filter:first-child:last-child {
-		padding-bottom: 10px;
-		border-bottom: 1px solid var(--bg5)!important;
-	}
-
-	/* Repo, Actions */
-	.CheckRun-header {
-		border-top: 1px solid var(--bg2)!important;
-		border-bottom: none!important;
-	}
-
-	/* Repo, recent pushes */
-	.Box-row--yellow {
-		background-color: var(--bg3)!important;
-		color: var(--bg5)!important;
-	}
-	.flex-auto {
-		color: gray!important;
 	}
 }
