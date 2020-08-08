@@ -1131,8 +1131,13 @@
 	}
 
 	/* Profile, Repositories, Type & Language */
-	.SelectMenu-item[aria-checked=true] {
-		color: rgba(255, 255, 255, 0.3)!important;
+	label.SelectMenu-item[aria-checked=true] {
+		color: rgba(255, 255, 255, 0.7)!important;
+	}
+	label.SelectMenu-item {
+		color: rgba(255, 255, 255, 0.3);
+		background-color: var(--bg3);
+		border-bottom: 1px solid var(--bg4);
 	}
 
 	/* Profile, Overview, Customize your pins */
@@ -1158,7 +1163,16 @@
 		border-color: var(--bg6);
 	}
 
-	/* Repo, Readme.md, checkbox (Pick From "Github Ice Dark(Updated)", by rouzbeh84 + JZersche, from userstyles.org) */
+	/* Repo, Header, recent pushes */
+	.Box-row--yellow {
+		background-color: var(--bg3)!important;
+		color: var(--bg5)!important;
+	}
+	.flex-auto {
+		color: rgba(255, 255, 255, 0.7) !important
+	}
+
+	/* Repo, Markdown, checkbox (Pick From "Github Ice Dark(Updated)", by rouzbeh84 + JZersche, from userstyles.org) */
 	input[type="checkbox"],
 	input[type="checkbox"]:focus,
 	input[type="checkbox"]:hover:active,
@@ -1175,6 +1189,11 @@
 	input[type="checkbox"]:checked {
 		background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48Zz48cmVjdCBoZWlnaHQ9IjUxMiIgd2lkdGg9IjUxMiIgeT0iMCIgeD0iMCIgZmlsbD0iIzAwMDAwMCIvPjxwYXRoIGQ9Im05OC43OTk5ODggMjEzbC0wLjc5OTk4OCA4OWMwIDAgMTAzIDEwMiAxMDQgMTAyYzEgMCAyMDUgLTIwMSAyMDUgLTIwMWMwIDAgMCAtOTAgMCAtOTFjLTAuNzk5OTg4IDAgLTIwNCAyMDMgLTIwNCAyMDNsLTEwNCAtMTAyeiIgZmlsbD0iI2RkZGRkZCIvPjwvZz48L3N2Zz4KCg==) !important;
 		background-size: cover !important;
+	}
+
+	/* Repo, Issues */
+	a.muted-link.rgh-collaborator {
+		border-color: var(--bg5)!important;
 	}
 
 	/* Repo, Security, SideNav */
@@ -1204,17 +1223,13 @@
 	.release-main-section {
 		border-left: 2px solid var(--bg5)!important;
 	}
-
-	.SelectMenu-list,
-	a.SelectMenu-item {
+	.select-menu-modal position-absolute text-md-left .SelectMenu-list {
 		background-color: var(--bg)!important;
 	}
-
-	.select-menu-list {
+	.select-menu-modal position-absolute text-md-left .select-menu-list {
 		background-color: var(--bg);
 		border-top: 0px solid var(--bg5)!important;
 	}
-
 	.select-menu-text-filter:first-child:last-child {
 		padding-bottom: 10px;
 		border-bottom: 1px solid var(--bg5)!important;
@@ -1232,21 +1247,7 @@
 		background-color: var(--bg3)!important;
 	}
 
-	/* Repo, recent pushes */
-	.Box-row--yellow {
-		background-color: var(--bg3)!important;
-		color: var(--bg5)!important;
-	}
-	.flex-auto {
-		color: rgba(255, 255, 255, 0.7) !important
-	}
-
-	/* Repo, ??? */
-	.merge-status-list {
-		border-top: 1px solid var(--bg5)!important;
-	}
-
-	/* Home, Sourcegraph - Chrome Exetnsion */
+	/* Header, Sourcegraph - Chrome Exetnsion */
 	.command-list,
 	.show.chromed-list-popover.Box .popvoer-inner .command-list,
 	.flex-items-center.jump-to-suggestions-path.p-2 {
