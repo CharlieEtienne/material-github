@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.3.1
+@version      3.3.2
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1076,5 +1076,8 @@
 	.pl-mc {
 		color: hsla(24, 72%, 60%, 1);
 		background-color: hsla(24, 25%, 21%, 1);
+	}
+	.business-sso .business-sso-panel, .business-sso .org-sso-panel, .org-sso .business-sso-panel, .org-sso .org-sso-panel {
+		background-color: var(--bg1) !important;
 	}
 }
