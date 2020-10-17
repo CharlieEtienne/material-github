@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.3.3
+@version      3.3.4
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1079,5 +1079,9 @@
 	}
 	.business-sso .business-sso-panel, .business-sso .org-sso-panel, .org-sso .business-sso-panel, .org-sso .org-sso-panel {
 		background-color: var(--bg1) !important;
+	}
+	.review-comment .is-comment-editing {
+	    background-color: var(--bg1);
+	    border: var(--bg1);
 	}
 }
