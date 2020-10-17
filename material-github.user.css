@@ -1065,6 +1065,21 @@
 	.Label--gray-darker {
 	    color: #6a737d;
     }
+	.pl-md {
+		color: hsla(353, 72%, 60%, 1);
+		background-color: hsla(353, 25%, 21%, 1);
+	}
+	.pl-mi1 {
+		color: hsla(137, 72%, 60%, 1);
+		background-color: hsla(137, 25%, 21%, 1);
+	}
+	.pl-mc {
+		color: hsla(24, 72%, 60%, 1);
+		background-color: hsla(24, 25%, 21%, 1);
+	}
+	.business-sso .business-sso-panel, .business-sso .org-sso-panel, .org-sso .business-sso-panel, .org-sso .org-sso-panel {
+		background-color: var(--bg1) !important;
+	}
 
 	/* Header */
 	.Header-link {
@@ -1236,6 +1251,15 @@
 		border-bottom: 1px solid var(--bg5)!important;
 	}
 
+	/* Repo, Pull requests */
+	.merge-status-list {
+		border-top-color: var(--bg2);
+	}
+
+	.full-commit .commit-meta {
+		border-top-color: inherit;
+	}
+
 	/* Repo, Actions */
 	.bg-gray-dark {
 		background-color: var(--bg1)!important;
@@ -1313,20 +1337,5 @@
 		background: var(--bg4) !important;
 		color: rgba(204,204,204) !important;
 		border: none !important;
-	}
-	.pl-md {
-		color: hsla(353, 72%, 60%, 1);
-		background-color: hsla(353, 25%, 21%, 1);
-	}
-	.pl-mi1 {
-		color: hsla(137, 72%, 60%, 1);
-		background-color: hsla(137, 25%, 21%, 1);
-	}
-	.pl-mc {
-		color: hsla(24, 72%, 60%, 1);
-		background-color: hsla(24, 25%, 21%, 1);
-	}
-	.business-sso .business-sso-panel, .business-sso .org-sso-panel, .org-sso .business-sso-panel, .org-sso .org-sso-panel {
-		background-color: var(--bg1) !important;
 	}
 }
