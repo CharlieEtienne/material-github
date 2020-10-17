@@ -1181,9 +1181,9 @@
 	input[type="checkbox"]:hover:disabled,
 	input[type="checkbox"]:hover:active:disabled {
 		-webkit-appearance: none !important;
-		background-color: #25272a !important;
-		border: 1px solid #484848 !important;
-		color: #eee !important;
+		background-color: rgba(37,39,42) !important; 
+		border: 1px solid rgba(72,72,72) !important;
+		color: rgba(238,238,238) !important;
 		height: 1em !important;
 		width: 1em !important;
 	}
@@ -1287,13 +1287,13 @@
 	}
 
 	.ghh-state-open {
-		color: rgb(44, 190, 78)!important;
+		color: rgba(44, 190, 78)!important;
 		border-color: var(--bg) !important;
 		background-color: var(--bg4) !important;
 	}
 
 	.ghh-state-verified {
-		color: rgb(34, 134, 58) !important;
+		color: rgba(34, 134, 58) !important;
 		border-color: var(--bg) !important;
 		background-color: var(--bg3) !important;
 	}
@@ -1311,7 +1311,7 @@
 	.ghh-readme pre,
 	.ghh-issue-body pre {
 		background: var(--bg4) !important;
-		color: #ccc !important;
+		color: rgba(204,204,204) !important;
 		border: none !important;
 	}
 	.pl-md {
