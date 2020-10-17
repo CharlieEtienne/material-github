@@ -1211,6 +1211,10 @@
 	a.muted-link.rgh-collaborator {
 		border-color: var(--bg5)!important;
 	}
+	
+	.js-pinned-issues-reorder-form .js-pinned-issues-reorder-list {
+		box-shadow: var(--bg6) 0px 0px 0px 2px;
+	}
 
 	/* Repo, Security, SideNav */
 	.SideNav {
