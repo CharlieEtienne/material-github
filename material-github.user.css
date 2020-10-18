@@ -1269,8 +1269,15 @@
 		border-top-color: inherit;
 	}
 
-	.clearfix.js-issues-results .tabnav {
+	.clearfix.js-issues-results .tabnav,
+	.discussion-sidebar-item.sidebar-notifications,
+	div#partial-users-participants {
 		border-color: var(--bg5) !important;
+	}
+
+	.timeline-comment-group table.d-block {
+		visibility: initial !important;
+		display: initial !important;
 	}
 
 	/* Repo, Actions */
