@@ -1193,7 +1193,8 @@
 		color: rgba(255, 255, 255, 0.7) !important
 	}
 
-	/* Repo, Markdown, checkbox (Pick From "Github Ice Dark(Updated)", by rouzbeh84 + JZersche, from userstyles.org) */
+	/* Repo, Markdown, checkbox */
+	/* (Pick From "Github Ice Dark(Updated)", by rouzbeh84 + JZersche, from userstyles.org) */
 	input[type="checkbox"],
 	input[type="checkbox"]:focus,
 	input[type="checkbox"]:hover:active,
@@ -1201,12 +1202,11 @@
 	input[type="checkbox"]:hover:disabled,
 	input[type="checkbox"]:hover:active:disabled {
 		-webkit-appearance: none !important;
-		background-color: rgba(37,39,42) !important; 
-		border: 1px solid rgba(72,72,72) !important;
-		color: rgba(238,238,238) !important;
+		border: 1px solid var(--bg5) !important;
 		height: 1em !important;
 		width: 1em !important;
 	}
+	
 	input[type="checkbox"]:checked {
 		background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48Zz48cmVjdCBoZWlnaHQ9IjUxMiIgd2lkdGg9IjUxMiIgeT0iMCIgeD0iMCIgZmlsbD0iIzAwMDAwMCIvPjxwYXRoIGQ9Im05OC43OTk5ODggMjEzbC0wLjc5OTk4OCA4OWMwIDAgMTAzIDEwMiAxMDQgMTAyYzEgMCAyMDUgLTIwMSAyMDUgLTIwMWMwIDAgMCAtOTAgMCAtOTFjLTAuNzk5OTg4IDAgLTIwNCAyMDMgLTIwNCAyMDNsLTEwNCAtMTAyeiIgZmlsbD0iI2RkZGRkZCIvPjwvZz48L3N2Zz4KCg==) !important;
 		background-size: cover !important;
@@ -1237,7 +1237,7 @@
 		background-color: var(--bg5) !important;
 	}
 
-	/* Repo, Insights,> Forks */
+	/* Repo, Insights, Forks */
 	.network-tree {
 		width: 26px !important;
 		height: 0 !important;
@@ -1267,6 +1267,10 @@
 
 	.full-commit .commit-meta {
 		border-top-color: inherit;
+	}
+
+	.clearfix.js-issues-results .tabnav {
+		border-color: var(--bg5) !important;
 	}
 
 	/* Repo, Actions */
