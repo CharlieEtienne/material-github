@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.3.3
+@version      3.3.4
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1081,6 +1081,11 @@
 		background-color: var(--bg1) !important;
 	}
 
+	.review-comment .is-comment-editing {
+	    background-color: var(--bg1);
+		border: var(--bg1);
+	}
+	
 	/* Header */
 	.Header-link {
 		color: rgba(255, 255, 255, 0.6) !important;
