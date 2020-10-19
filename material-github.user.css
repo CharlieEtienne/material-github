@@ -1088,7 +1088,7 @@
 	
 	/* Header */
 	.Header-link {
-		color: rgba(255, 255, 255, 0.6) !important;
+		color: rgba(255, 255, 255, calc(0.6 * /*[[text_brightness]]*/)) !important;
 	}
 	.Header-link:focus,
 	.Header-link:hover {
@@ -1098,11 +1098,11 @@
 	/* Home, Repositories */
 	button.width-full.text-left.btn-link.f6.muted-link,
 	h2.hide-sm.hide-md.f5.mb-1.border-top.pt-3 {
-		border-top: 1px solid var(--bg4)!important;
-		color: rgba(255, 255, 255, 0.6) !important;
+		border-top: 1px solid var(--bg4) !important;
+		color: rgba(255, 255, 255, calc(0.6 * /*[[text_brightness]]*/)) !important;
 	}
 	button.width-full.text-left.btn-link.f6.muted-link {
-		border-top: none!important;
+		border-top: none !important;
 	}
 	button.width-full.text-left.btn-link.f6.muted-link:hover {
 		color: var(--selected) !important;
@@ -1112,20 +1112,20 @@
 	.js-show-more-recent-items,
 	li.Box-row.d-flex.p-2,
 	li.d-flex.border-top.p-2.position-relative {
-		border-top: 1px solid var(--bg3)!important;
+		border-top: 1px solid var(--bg3) !important;
 	}
 	li.Box-row.d-flex.p-2:first-of-type {
-		border-top-color: transparent!important;
+		border-top-color: transparent !important;
 	}
 	.js-details-target.js-show-more-recent-items {
-		background-color: var(--bg2)!important;
-		color: rgba(255, 255, 255, 0.6) !important;
+		background-color: var(--bg2) !important;
+		color: rgba(255, 255, 255, calc(0.6 * /*[[text_brightness]]*/)) !important;
 	}
 	.Box-row--hover-blue:hover {
-		background-color: var(--bg3)!important;
+		background-color: var(--bg3) !important;
 	}
 	.link-gray:hover {
-		color: var(--selected)!important;
+		color: var(--selected) !important;
 	}
 
 	/* Home, All activity */
@@ -1137,13 +1137,13 @@
 		border-top: 1px solid var(--bg4) !important;
 	}
 	.js-news-feed-event-group.border-bottom {
-		border-bottom: 1px solid var(--bg4)!important;
+		border-bottom: 1px solid var(--bg4) !important;
 	}
 	.js-news-feed-event-group.border-bottom .d-flex.d-flex.flex-items-baseline.py-3 {
-		border-bottom: none!important;
+		border-bottom: none !important;
 	}
 	.d-flex.flex-items-baseline.py-3 {
-		border-bottom: 1px solid var(--bg4)!important;
+		border-bottom: 1px solid var(--bg4) !important;
 	}
 
 	/* Home, Explore repositories */
@@ -1153,44 +1153,41 @@
 
 	/* Profile, Repositories, Type & Language */
 	label.SelectMenu-item[aria-checked=true] {
-		color: rgba(255, 255, 255, 0.7)!important;
+		color: rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/)) !important;
 	}
 	label.SelectMenu-item {
-		color: rgba(255, 255, 255, 0.3);
-		background-color: var(--bg3);
-		border-bottom: 1px solid var(--bg4);
+		color: rgba(255, 255, 255, calc(0.3 * /*[[text_brightness]]*/)) !important;
+		background-color: var(--bg3) !important;
+		border-bottom: 1px solid var(--bg4) !important;
 	}
 
 	/* Profile, Overview, Customize your pins */
 	.pinned-item-name {
-		color: rgba(255, 255, 255, 0.3)!important;
+		color: rgba(255, 255, 255, calc(0.3 * /*[[text_brightness]]*/)) !important;
 	}
 	.pinned-item-checkbox:checked + .pinned-item-name {
-		background-color: var(--bg3)!important;
+		background-color: var(--bg3) !important;
 	}
 
 	/* Marketplace, Apps */
 	.topic-tag-outline {
-		box-shadow: inset 0 0 0 1px var(--btn)!important;
+		box-shadow: inset 0 0 0 1px var(--btn) !important;
 	}
 	.ScreenshotCarousel-nav {
-		box-shadow: inset 0 1px 0 var(--bg3)!important;
+		box-shadow: inset 0 1px 0 var(--bg3) !important;
 	}
 	.ScreenshotCarousel-navitem {
-		border: 1px solid var(--bg3)!important;
+		border: 1px solid var(--bg3) !important;
 	}
 	.Label--outline {
-		color: rgba(255, 255, 255, 0.3)!important;
-		border-color: var(--bg6);
+		color: rgba(255, 255, 255, calc(0.3 * /*[[text_brightness]]*/)) !important;
+		border-color: var(--bg6) !important;
 	}
 
 	/* Repo, Header, recent pushes */
 	.Box-row--yellow {
-		background-color: var(--bg3)!important;
-		color: var(--bg5)!important;
-	}
-	.flex-auto {
-		color: rgba(255, 255, 255, 0.7) !important
+		background-color: var(--bg3) !important;
+		color: var(--bg5) !important;
 	}
 
 	/* Repo, Markdown, checkbox */
@@ -1214,7 +1211,7 @@
 
 	/* Repo, Issues */
 	a.muted-link.rgh-collaborator {
-		border-color: var(--bg5)!important;
+		border-color: var(--bg5) !important;
 	}
 	
 	.js-pinned-issues-reorder-form .js-pinned-issues-reorder-list {
@@ -1246,27 +1243,27 @@
 
 	/* Repo, Releases, Releases */
 	.release-main-section {
-		border-left: 2px solid var(--bg5)!important;
+		border-left: 2px solid var(--bg5) !important;
 	}
 	.select-menu-modal position-absolute text-md-left .SelectMenu-list {
-		background-color: var(--bg)!important;
+		background-color: var(--bg1) !important;
 	}
 	.select-menu-modal position-absolute text-md-left .select-menu-list {
-		background-color: var(--bg);
-		border-top: 0px solid var(--bg5)!important;
+		background-color: var(--bg1) !important;
+		border-top: 0px solid var(--bg5) !important;
 	}
 	.select-menu-text-filter:first-child:last-child {
 		padding-bottom: 10px;
-		border-bottom: 1px solid var(--bg5)!important;
+		border-bottom: 1px solid var(--bg5) !important;
 	}
 
 	/* Repo, Pull requests */
 	.merge-status-list {
-		border-top-color: var(--bg2);
+		border-top-color: var(--bg2) !important;
 	}
 
 	.full-commit .commit-meta {
-		border-top-color: inherit;
+		border-top-color: inherit !important;
 	}
 
 	.clearfix.js-issues-results .tabnav,
@@ -1286,7 +1283,7 @@
 	}
 	.CheckRun-header {
 		border-top: 1px solid var(--bg2)!important;
-		border-bottom: none;
+		border-bottom: none !important;
 	}
 	.CheckRun {
 		background-color: var(--bg3)!important;
@@ -1299,7 +1296,7 @@
 		background-color: var(--bg1) !important;
 	}
 	.show.command-list-popover.Box {
-		border-color: var(--bg5)!important;
+		border-color: var(--bg5) !important;
 	}
 	.navigation-focus .flex-auto {
 		color: var(--selected) !important;
@@ -1315,7 +1312,7 @@
 	.tooltipster-arrow-background {
 		border-color: var(--bg4) !important;
 		background-color: var(--bg4) !important;
-		color: rgba(255, 255, 255, 0.7) !important;
+		color: rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/)) !important;
 	}
 
 	.ghh-stats {
@@ -1323,7 +1320,7 @@
 	}
 
 	.ghh-stats span {
-		color: rgba(255, 255, 255, 0.7) !important;
+		color: rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/)) !important;
 	}
 
 	.ghh-stats > a + a {
@@ -1331,14 +1328,14 @@
 	}
 
 	.ghh-state-open {
-		color: rgba(44, 190, 78)!important;
-		border-color: var(--bg) !important;
+		color: rgba(44, 190, 78, calc(0.7 * /*[[text_brightness]]*/))!important;
+		border-color: var(--bg1) !important;
 		background-color: var(--bg4) !important;
 	}
 
 	.ghh-state-verified {
-		color: rgba(34, 134, 58) !important;
-		border-color: var(--bg) !important;
+		color: rgba(34, 134, 58, calc(0.7 * /*[[text_brightness]]*/)) !important;
+		border-color: var(--bg1) !important;
 		background-color: var(--bg3) !important;
 	}
 
@@ -1349,13 +1346,13 @@
 
 	.ghh-issue-body {
 		background-color: var(--bg2)!important;
-		color: rgba(255, 255, 255, 0.65) !important;
+		color: rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/)) !important;
 	}
 
 	.ghh-readme pre,
 	.ghh-issue-body pre {
 		background: var(--bg4) !important;
-		color: rgba(204,204,204) !important;
+		color: rgba(204, 204, 204, calc(0.7 * /*[[text_brightness]]*/)) !important;
 		border: none !important;
 	}
 }
