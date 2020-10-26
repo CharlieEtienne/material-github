@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.3.8
+@version      3.3.9
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -143,7 +143,7 @@
 		background: var(--bg2) !important;
 		border-color: var(--bg2) !important;
 	}
-	.Box-row, .Box-footer, .border-y, .border-top, .border-sm-top, .border-md-top, .border-lg-top, .commits-list-item + .commits-list-item, .diff-table .line-comments, .diff-table tr:not(:last-child) .line-comments, .timeline-comment .comment + .comment, .facebox-footer, .comment-reactions.has-reactions, .select-menu-divider, .branch-action-body .merge-branch-form, .branch-action-body .merge-message, .branch-action-item + .branch-action-item, .branch-action-item + .mergeability-details, .codesearch-results .repo-list-item + .repo-list-item, .dashboard-rollup-items > .dashboard-rollup-item, .topic-list .topic-list-item + .topic-list-item, .discussion-post .reply-comment:first-child, .issue-list-item + .issue-list-item, .last-review-thread, .review-thread-reply, .file-navigation .get-repo-btn, .user-list-item + .user-list-item, .wiki-list .wiki-list-item + .wiki-list-item {
+	.Box-row, .Box-footer, .border-y, .commits-list-item + .commits-list-item, .diff-table .line-comments, .diff-table tr:not(:last-child) .line-comments, .timeline-comment .comment + .comment, .facebox-footer, .comment-reactions.has-reactions, .select-menu-divider, .branch-action-body .merge-branch-form, .branch-action-body .merge-message, .branch-action-item + .branch-action-item, .branch-action-item + .mergeability-details, .codesearch-results .repo-list-item + .repo-list-item, .dashboard-rollup-items > .dashboard-rollup-item, .topic-list .topic-list-item + .topic-list-item, .discussion-post .reply-comment:first-child, .issue-list-item + .issue-list-item, .last-review-thread, .review-thread-reply, .file-navigation .get-repo-btn, .user-list-item + .user-list-item, .wiki-list .wiki-list-item + .wiki-list-item {
 		border-top: 1px solid var(--bg2) !important;
 	}
 	.Header {
