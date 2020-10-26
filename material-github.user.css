@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.3.6
+@version      3.3.7
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1093,6 +1093,9 @@
 	}
 	.branch-action-state-unknown .branch-action-body, .branch-action-state-unstable .branch-action-body {
 	    border-color: #e2cc7a !important;
+	}
+	input[type="checkbox"] {
+	    filter: invert(90%) hue-rotate(calc(/*[[accent]]*/deg - 212deg + 180deg)) saturate(62%) brightness(77%) contrast(100%);
 	}
 	
 }
