@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.3.11
+@version      3.3.12
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1102,9 +1102,6 @@
 	}
 	.btn-link:not(.issue-card-label):hover {
 	    color: #fff !important;
-	}
-	.file {
-	    overflow: hidden;
 	}
 	img.network-tree {
 	    height: 0 !important;
