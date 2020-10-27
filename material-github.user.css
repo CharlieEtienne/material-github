@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.3.10
+@version      3.3.11
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1105,5 +1105,12 @@
 	}
 	.file {
 	    overflow: hidden;
+	}
+	img.network-tree {
+	    height: 0 !important;
+    	    width: 0 !important;
+	    padding-left: 20px !important;
+	    padding-top: 26px !important;
+	    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADFJREFUeNpi/P//PwM1AROR6v5T20DGUReOunDUhQPpQoI042hpM+rCURcOCxcCBBgAaacYJuwp3JEAAAAASUVORK5CYII=') no-repeat !important;
 	}
 }
