@@ -43,3 +43,52 @@ If the theme is broken, don't hesitate to fill an issue here.
 ## Contributions
 
 Contributions are very welcome! Feel free to suggest changes in a new issue or make a PR.
+
+### Contributions Guidelines
+
+- Please make one separate Pull Request per feat/fix.
+- Please don't change something else than colors. Don't suggest changes for things like font-size, width, height, border-radius... We want to be as close as possible to GitHub in terms of design/UI.
+- Please use CSS vars provided by Material GitHub when it's possible (ie. `var(--bg2)`):
+
+  **Background Color** (from darkest to lightest)
+
+  ```css
+  --bg1
+  --bg2
+  --bg3
+  --bg4
+  --bg5
+  --bg6
+  --bg7
+  --bg8
+  --bg9
+  --bg10
+  --bg11
+  ```
+
+  **Text Color**
+
+  Use transparent white RGBA `(255, 255, 255, 0.*)` and multiply the last parameter (alpha) with `/*[[text_brightness]]*/`. It allows users to increase or decrease text brightness:
+
+  ```css
+  .selector {
+      color: rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/)) !important;
+  }
+  ```
+
+  **Accent Color** (from lightest to darkest)
+
+  ```css
+  --selected
+  --selected2
+  --btn
+  --btn2
+  --btn3
+  --btn4
+  ```
+  
+- If GitHub uses a var (ie. `--color-bg-primary`), just redeclare it in `:root` like so:
+  
+   ```css
+  --color-bg-primary: var(--bg2);
+  ```
