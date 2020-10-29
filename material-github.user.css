@@ -1111,4 +1111,69 @@
 	    padding-top: 26px !important;
 	    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADFJREFUeNpi/P//PwM1AROR6v5T20DGUReOunDUhQPpQoI042hpM+rCURcOCxcCBBgAaacYJuwp3JEAAAAASUVORK5CYII=') no-repeat !important;
 	}
+	
+	/* Header */
+	.Header-link {
+		color: rgba(255, 255, 255, calc(0.6 * /*[[text_brightness]]*/)) !important;
+	}
+	.Header-link:focus,
+	.Header-link:hover {
+		color: var(--selected) !important;
+	}
+
+	/* Home, Repositories */
+	button.width-full.text-left.btn-link.f6.muted-link,
+	h2.hide-sm.hide-md.f5.mb-1.border-top.pt-3 {
+		border-top: 1px solid var(--bg4) !important;
+		color: rgba(255, 255, 255, calc(0.6 * /*[[text_brightness]]*/)) !important;
+	}
+	button.width-full.text-left.btn-link.f6.muted-link {
+		border-top: none !important;
+	}
+	button.width-full.text-left.btn-link.f6.muted-link:hover {
+		color: var(--selected) !important;
+	}
+
+	/* Home, Recent activity */
+	.js-show-more-recent-items,
+	li.Box-row.d-flex.p-2,
+	li.d-flex.border-top.p-2.position-relative {
+		border-top: 1px solid var(--bg3) !important;
+	}
+	li.Box-row.d-flex.p-2:first-of-type {
+		border-top-color: transparent !important;
+	}
+	.js-details-target.js-show-more-recent-items {
+		background-color: var(--bg2) !important;
+		color: rgba(255, 255, 255, calc(0.6 * /*[[text_brightness]]*/)) !important;
+	}
+	.Box-row--hover-blue:hover {
+		background-color: var(--bg3) !important;
+	}
+	.link-gray:hover {
+		color: var(--selected) !important;
+	}
+
+	/* Home, All activity */
+	.dashboard .js-all-activity-header + div {
+		background-color: var(--bg2) !important;
+		border-color: var(--bg2) !important;
+	}
+	.dashboard-rollup-items .body {
+		border-top: 1px solid var(--bg4) !important;
+	}
+	.js-news-feed-event-group.border-bottom {
+		border-bottom: 1px solid var(--bg4) !important;
+	}
+	.js-news-feed-event-group.border-bottom .d-flex.d-flex.flex-items-baseline.py-3 {
+		border-bottom: none !important;
+	}
+	.d-flex.flex-items-baseline.py-3 {
+		border-bottom: 1px solid var(--bg4) !important;
+	}
+
+	/* Home, Explore repositories */
+	.py-2.my-2.border-bottom {
+		border-color: var(--bg2) !important;
+	}
 }
