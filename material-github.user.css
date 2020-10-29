@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.3.14
+@version      3.3.15
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -85,6 +85,8 @@
 		--color-dropdown-border: 		var(--bg5);
 		--color-auto-white: 			var(--bg3);
 		--color-bg-canvas:			var(--bg2);
+		--color-verified-badge-text: 		#2cbe87;
+		--color-verified-badge-bg: 		var(--bg3);
 		--color-icon-folder:			var(--selected2);
 		--color-underlinenav-counter-text: 	rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/));
 
@@ -1111,5 +1113,8 @@
 	    padding-left: 20px !important;
 	    padding-top: 26px !important;
 	    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADFJREFUeNpi/P//PwM1AROR6v5T20DGUReOunDUhQPpQoI042hpM+rCURcOCxcCBBgAaacYJuwp3JEAAAAASUVORK5CYII=') no-repeat !important;
+	}
+	.signed-commit-badge.verified {
+    	    color: var(--color-verified-badge-text) !important;
 	}
 }
