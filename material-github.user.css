@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.3.17
+@version      3.3.18
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -77,17 +77,28 @@
 		--btn2: hsl(/*[[accent]]*/, 29%, 33%);
 		--btn3: hsl(/*[[accent]]*/, 21%, 22%);
 		--btn4: hsl(/*[[accent]]*/, 25%, 15%);
-
-		--color-previewable-comment-form-bg: 	var(--bg2);
+		
+		/* BACKGROUND */
 		--color-bg-primary: 			var(--bg2);
-		--color-border-primary: 		var(--bg3);
-		--color-dropdown-bg: 			var(--bg2);
-		--color-dropdown-border: 		var(--bg5);
-		--color-auto-white: 			var(--bg3);
+		--color-bg-secondary: 			var(--bg2);
 		--color-bg-canvas:			var(--bg2);
-		--color-verified-badge-text: 		#2cbe87;
+		--color-dropdown-bg: 			var(--bg2);
+		--color-previewable-comment-form-bg: 	var(--bg2);
+		--color-auto-white: 			var(--bg3);
 		--color-verified-badge-bg: 		var(--bg3);
+		--color-sidenav-selected-bg:    	var(--bg4);
+		--color-state-hover-secondary-bg: 	var(--bg5);
+
+		/* BORDERS */
+		--color-border-primary: 		var(--bg3);
+		--color-border-secondary: 		var(--bg3);
+		--color-dropdown-border: 		var(--bg5);
+
+		/* FOLDERS */
 		--color-icon-folder:			var(--selected2);
+
+		/* TEXTS */
+		--color-verified-badge-text: 		#2cbe87;
 		--color-underlinenav-counter-text: 	rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/));
 
 	}
