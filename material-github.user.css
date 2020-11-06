@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.5.0
+@version      3.5.1
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -82,6 +82,7 @@
 		--color-bg-primary: 			var(--bg2);
 		--color-bg-secondary: 			var(--bg2);
 		--color-bg-canvas:			var(--bg2);
+		--color-bg-info: 			var(--bg4);
 		--color-dropdown-bg: 			var(--bg2);
 		--color-previewable-comment-form-bg: 	var(--bg2);
 		--color-auto-white: 			var(--bg3);
@@ -113,8 +114,8 @@
 		--color-underlinenav-counter-text: 	rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/));
 		
 		/* OTHER */
-		--color-auto-gray-8: 			var(--bg5);
-		--color-auto-gray-9:			var(--bg3);
+		--color-auto-gray-8: 			rgba(255, 255, 255, calc(0.6 * /*[[text_brightness]]*/));
+		--color-auto-gray-9:			rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/));
 		--color-bg-info-inverse: 		var(--btn);
 
 	}
@@ -1146,6 +1147,10 @@
 	}
 	.signed-commit-badge.verified {
     	    color: var(--color-verified-badge-text) !important;
+	}
+	.CheckStep-header:hover, .CheckStep[open] .CheckStep-header{
+		--color-auto-gray-8: var(--bg5);
+		--color-auto-gray-9: var(--bg3);
 	}
 }
 
