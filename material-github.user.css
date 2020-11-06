@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.4.5
+@version      3.4.6
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -95,6 +95,7 @@
 		/* BORDERS */
 		--color-border-primary: 		var(--bg3);
 		--color-border-secondary: 		var(--bg3);
+		--color-border-tertiary:		var(--bg4);
 		--color-dropdown-border: 		var(--bg5);
 		--color-border-overlay:			var(--bg5);
 		
