@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.5.1
+@version      3.5.2
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1148,7 +1148,7 @@
 	.signed-commit-badge.verified {
     	    color: var(--color-verified-badge-text) !important;
 	}
-	.CheckStep-header:hover, .CheckStep[open] .CheckStep-header{
+	.CheckStep-header:hover, .CheckStep[open] .CheckStep-header, .CheckStep-line{
 		--color-auto-gray-8: var(--bg5);
 		--color-auto-gray-9: var(--bg3);
 	}
