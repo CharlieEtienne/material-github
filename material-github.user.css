@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.4.6
+@version      3.5.0
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1146,5 +1146,89 @@
 	}
 	.signed-commit-badge.verified {
     	    color: var(--color-verified-badge-text) !important;
+	}
+}
+
+/**
+ * | ==========================================
+ * |  STYLE docs.github.com
+ * | ==========================================
+ */
+@-moz-document domain("docs.github.com"){
+	
+	.sidebar-background-color {
+		background-color: var(--bg2);
+	}
+	.sidebar {
+    	background-color: var(--bg3);
+	}
+	.sidebar-category.active {
+		background-color: var(--bg4);
+	}
+	section#landing {
+		background-color: var(--bg3) !important;
+	}
+	section.mt-lg-9.py-7.no-print.js-support-banner {
+	    background-color: var(--bg1) !important;
+	}
+	svg.arrow {
+		stroke: #fff;
+	}
+	@media (min-width: 768px) {
+		.nav-desktop-productDropdown, .nav-desktop-langDropdown {
+			background: var(--bg4);
+		}
+	}
+	.ais-SearchBox-input {
+		background: var(--bg1) url(/assets/images/octicons/search.svg) no-repeat 6px;
+		background-blend-mode: luminosity;
+	}
+	.form-control, .ais-SearchBox-input, .form-select {
+		background-color: var(--bg1);
+		color: rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/));
+	    border: 1px solid var(--bg6);
+	}
+	.form-control.focus, .focus.ais-SearchBox-input, .form-control:focus, .ais-SearchBox-input:focus, .form-select.focus, .form-select:focus {
+		border-color: var(--btn);
+		outline: none;
+		box-shadow: 0 0 0 3px hsla(/*[[accent]]*/, 38%, 66%, 0.3);
+	}
+	.ais-Hits-item:hover {
+		background: var(--bg5);
+	}
+	.markdown-body .lead-mktg p {
+		color: rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/));
+	}
+	
+	.hljs {
+		color: rgba(255, 255, 255, calc(0.6 * /*[[text_brightness]]*/));
+	}
+	.hljs-tag, .hljs-name, .hljs-attribute {
+		color: #82aaff;
+	}
+	.hljs-number, .hljs-literal, .hljs-variable, .hljs-template-variable, .hljs-tag .hljs-attr {
+		color: #f07178;
+	}
+	.hljs-string, .hljs-doctag {
+		color: #c3e88d;
+	}
+	
+	.border.bg-purple-light, div.border.rounded-1.bg-purple-light {
+		background-color: hsla(260, 100%, 30%, 40%) !important;
+	}
+	.border.warning, div.border.rounded-1.warning {
+		background-color: hsla(30, 57%, 32%, 40%) !important;
+	}
+	.border.border-purple {
+		border-color: hsl(260 51% 30%) !important;
+	}
+	
+	@media (min-width: 768px){
+		header #search-results-container {
+			background: var(--bg3);
+		}
+	}
+	.link-with-intro-title {
+		color: var(--selected) !important;
 	}
 }
