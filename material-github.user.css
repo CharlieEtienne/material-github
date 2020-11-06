@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.4.4
+@version      3.4.5
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -101,6 +101,7 @@
 		/* SHADOWS */
 		--color-autocomplete-shadow:		hsla(/*[[theme]]*/, calc(13% * /*[[lightness]]*/), 0.15) 0px 3px 6px;
 		--color-shadow-large:			hsla(/*[[theme]]*/, calc(13% * /*[[lightness]]*/), 0.2) 0px 8px 24px;
+		--color-btn-focus-shadow:		hsla(/*[[accent]]*/, 38%, 66%, 0.3) 0px 0px 0px 3px;
 
 		/* FOLDERS */
 		--color-icon-folder:			var(--selected2);
