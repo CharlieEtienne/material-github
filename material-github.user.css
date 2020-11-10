@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      3.5.2
+@version      3.6.0
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -50,7 +50,7 @@
 }
 @var range custom_accent "Custom accent hue" [0, 0, 360, 1, ""]
 ==/UserStyle== */
-@-moz-document domain("github.com") {
+@-moz-document domain("github.com"), domain("render.githubusercontent.com") {
 	:root{
 
 		--hue: /*[[hue]]*/;
@@ -1235,5 +1235,55 @@
 	}
 	.link-with-intro-title {
 		color: var(--selected) !important;
+	}
+}
+
+/**
+ * | ==========================================
+ * |  STYLE render.githubusercontent.com
+ * | ==========================================
+ */
+@-moz-document domain("render.githubusercontent.com"){
+	body[data-render-url="https://render.githubusercontent.com"]{
+		background-color: var(--bg3) !important;
+	}
+	div.input_area {
+		border: 1px solid var(--bg6);
+		background-color: var(--bg4);
+	}
+	div.output_stderr {
+		background-color: hsla(353, 25%, 21%, 1);
+	}
+	div.output_text{
+		color: rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/));
+	}
+	code, pre, div.output_area pre {
+		color: #B0BEC5;
+	}
+	div.input_prompt{
+		color: #82aaff;
+	}
+	.highlight .kn, 
+	.highlight .k {
+		color: #89ddff;
+	}
+	.highlight .nn{
+		color: #ffcb6b;
+	}
+	.highlight .nf,
+	.highlight .nb{
+		color: #f07178;
+	}
+	.highlight .o {
+		color: #89ddff;
+	}
+	.highlight .mi {
+		color: #f78c6c;
+	}
+	.highlight .s2 {
+		color: #c3e88d;
+	}
+	.highlight .si {
+		color: #c792ea;
 	}
 }
