@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      4.0.1
+@version      4.0.2
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -136,6 +136,7 @@
 
 		/* TEXTS */
 		--color-text-primary:                   var(--text7);
+		--color-text-secondary:	                var(--text1);
 		--color-verified-badge-text:            #2cbe87;
 		--color-underlinenav-counter-text:      var(--text7);
 		
