@@ -66,14 +66,21 @@ Contributions are very welcome! Feel free to suggest changes in a new issue or m
   --bg11
   ```
 
-  **Text Color**
-
-  Use transparent white RGBA `(255, 255, 255, 0.*)` and multiply the last parameter (alpha) with `/*[[text_brightness]]*/`. It allows users to increase or decrease text brightness:
+  **Text Color** (from darkest to lightest)
 
   ```css
-  .selector {
-      color: rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/)) !important;
-  }
+  --text0
+  --text1
+  --text2
+  --text3
+  --text4
+  --text5
+  --text6
+  --text7
+  --text8
+  --text9
+  --text10
+  --text11
   ```
 
   **Accent Color** (from lightest to darkest)
