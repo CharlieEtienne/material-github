@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      4.0.0
+@version      4.0.1
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -73,13 +73,13 @@
 		--text2:  hsl(/*[[theme]]*/, calc(50% * /*[[text_brightness]]*/));
 		--text3:  hsl(/*[[theme]]*/, calc(55% * /*[[text_brightness]]*/));
 		--text4:  hsl(/*[[theme]]*/, calc(60% * /*[[text_brightness]]*/));
-        --text5:  hsl(/*[[theme]]*/, calc(65% * /*[[text_brightness]]*/));
+        	--text5:  hsl(/*[[theme]]*/, calc(65% * /*[[text_brightness]]*/));
 		--text6:  hsl(/*[[theme]]*/, calc(70% * /*[[text_brightness]]*/));
 		--text7:  hsl(/*[[theme]]*/, calc(75% * /*[[text_brightness]]*/));
 		--text8:  hsl(/*[[theme]]*/, calc(80% * /*[[text_brightness]]*/));
-        --text9:  hsl(/*[[theme]]*/, calc(85% * /*[[text_brightness]]*/));
-        --text10: hsl(/*[[theme]]*/, calc(90% * /*[[text_brightness]]*/));
-        --text11: hsl(/*[[theme]]*/, calc(95% * /*[[text_brightness]]*/));
+        	--text9:  hsl(/*[[theme]]*/, calc(85% * /*[[text_brightness]]*/));
+        	--text10: hsl(/*[[theme]]*/, calc(90% * /*[[text_brightness]]*/));
+        	--text11: hsl(/*[[theme]]*/, calc(95% * /*[[text_brightness]]*/));
 		
 		--text-disabled: hsl(/*[[theme]]*/, calc(30% * /*[[text_brightness]]*/));
 
@@ -93,16 +93,16 @@
 		--btn3: hsl(/*[[accent]]*/, 21%, 22%);
 		--btn4: hsl(/*[[accent]]*/, 25%, 15%);
 
-        /* CODE PALETTE (see https://www.material-theme.com/docs/reference/color-palette) */
-        --material-code-red:        #f07178;        /* Tags Color */
-        --material-code-teal:       #80cbc4;        /* Links Color */
-        --material-code-blue:       #82aaff;        /* Functions Color */
-        --material-code-cyan:       #89ddff;        /* Operators Color */
-        --material-code-green:      #c3e88d;        /* Strings Color */
-        --material-code-purple:     #c792ea;        /* Keywords Color */
-        --material-code-yellow:     #ffcb6b;        /* Attributes Color */
-        --material-code-orange:     #f78c6c;        /* Numbers & Parameters Color */
-        --material-code-comments:   var(--text2);    /* Comments Color */
+       		/* CODE PALETTE (see https://www.material-theme.com/docs/reference/color-palette) */
+        	--material-code-red:        #f07178;        /* Tags Color */
+        	--material-code-teal:       #80cbc4;        /* Links Color */
+        	--material-code-blue:       #82aaff;        /* Functions Color */
+        	--material-code-cyan:       #89ddff;        /* Operators Color */
+        	--material-code-green:      #c3e88d;        /* Strings Color */
+        	--material-code-purple:     #c792ea;        /* Keywords Color */
+        	--material-code-yellow:     #ffcb6b;        /* Attributes Color */
+        	--material-code-orange:     #f78c6c;        /* Numbers & Parameters Color */
+        	--material-code-comments:   var(--text2);    /* Comments Color */
 		
 		/* BACKGROUND */
 		--color-bg-primary:                     var(--bg2);
@@ -135,13 +135,13 @@
 		--color-icon-folder:                    var(--selected2);
 
 		/* TEXTS */
-		--color-text-primary:                   rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/));
+		--color-text-primary:                   var(--text7);
 		--color-verified-badge-text:            #2cbe87;
-		--color-underlinenav-counter-text:      rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/));
+		--color-underlinenav-counter-text:      var(--text7);
 		
 		/* OTHER */
-		--color-auto-gray-8:                    rgba(255, 255, 255, calc(0.6 * /*[[text_brightness]]*/));
-		--color-auto-gray-9:                    rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/));
+		--color-auto-gray-8:                    var(--text5);
+		--color-auto-gray-9:                    var(--text7);
 		--color-bg-info-inverse:                var(--btn);
 
 	}
