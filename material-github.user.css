@@ -608,11 +608,15 @@
 		color: var(--text1) !important;
 	}
 	.notifications-list-item.notification-unread {
-		background-color: var(--bg5);
+		background-color: var(--bg5) !important;
 	}
 	.notifications-list-item.notification-unread .notification-list-item-link {
 		color: rgba(255, 255, 255, calc(0.9 * /*[[text_brightness]]*/))!important;
 		color: var(--text11) !important;
+	}
+	.notifications-list-item.notification-read,
+	.notifications-list-item.notification-archived {
+		background-color: var(--bg4) !important;
 	}
 	.notifications-list-item:hover {
 		background-color: var(--bg6)!important;
