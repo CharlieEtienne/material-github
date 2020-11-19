@@ -140,6 +140,10 @@
 		--color-verified-badge-text:            #2cbe87;
 		--color-underlinenav-counter-text:      var(--text7);
 		
+		/* Notification System */
+		--color-notifications-row-bg:			var(--bg5);
+		--color-notifications-row-read-bg: 		var(--bg4);
+
 		/* OTHER */
 		--color-auto-gray-8:                    var(--text5);
 		--color-auto-gray-9:                    var(--text7);
@@ -607,16 +611,9 @@
 		color: rgba(255, 255, 255, calc(0.4 * /*[[text_brightness]]*/)) !important;
 		color: var(--text1) !important;
 	}
-	.notifications-list-item.notification-unread {
-		background-color: var(--bg5) !important;
-	}
 	.notifications-list-item.notification-unread .notification-list-item-link {
 		color: rgba(255, 255, 255, calc(0.9 * /*[[text_brightness]]*/))!important;
 		color: var(--text11) !important;
-	}
-	.notifications-list-item.notification-read,
-	.notifications-list-item.notification-archived {
-		background-color: var(--bg4) !important;
 	}
 	.notifications-list-item:hover {
 		background-color: var(--bg6)!important;
@@ -633,9 +630,6 @@
 	.notifications-list-item:hover .notification-list-item-actions .btn:hover {
 		color: rgb(255, 255, 255)!important;
 		background-color: var(--selected)!important;
-	}
-	.notifications-v2 .notification-navigation {
-		background-color: var(--bg3)!important;
 	}
 	.notification-navigation .notification-configure-filters:hover .octicon {
 		color: var(--selected)!important;
