@@ -644,6 +644,9 @@
 		color: rgba(255,255,255,calc(0.9 * /*[[text_brightness]]*/))!important;
 		color: var(--text11) !important;
 	}
+	.js-notification-search-warning-container {
+		color: var(--text7) !important;
+	}
 	.card-filter-autocomplete-dropdown .navigation-focus, .card-filter-autocomplete-dropdown [aria-selected=true] {
 		background-color: var(--selected2);
 	}
