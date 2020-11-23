@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      4.0.3
+@version      4.0.4
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -133,6 +133,7 @@
 
 		/* FOLDERS */
 		--color-icon-folder:                    var(--selected2);
+		--color-files-explorer-icon:		var(--selected2);
 
 		/* TEXTS */
 		--color-text-primary:                   var(--text7);
