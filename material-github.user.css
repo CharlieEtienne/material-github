@@ -1304,7 +1304,7 @@
  */
 @-moz-document domain("render.githubusercontent.com"){
 	#notebook {
-		background-color: var(--bg5) !important;
+		background-color: var(--bg3) !important;
 	}
 	p, li, table {
 		color: var(--text7);
