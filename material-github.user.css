@@ -1368,6 +1368,6 @@
 	}
 	img.math {
 		-webkit-filter: invert(.75);
-						filter: invert(.75);
-  }
+		filter: invert(.75);
+	}
 }
