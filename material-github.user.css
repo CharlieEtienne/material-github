@@ -1303,12 +1303,15 @@
  * | ==========================================
  */
 @-moz-document domain("render.githubusercontent.com"){
-	body[data-render-url="https://render.githubusercontent.com"]{
-		background-color: var(--bg3) !important;
+	#notebook {
+		background-color: var(--bg5) !important;
 	}
-	div.input_area {
+	p, li, table {
+		color: var(--text7);
+	}
+	div.input_area, div.highlight pre, pre code {
 		border: 1px solid var(--bg6);
-		background-color: var(--bg4);
+		background-color: var(--bg4) !important;
 	}
 	div.output_stderr {
 		background-color: hsla(353, 25%, 21%, 1);
@@ -1318,7 +1321,7 @@
 		color: var(--text7);
 	}
 	code, pre, div.output_area pre {
-		color: #B0BEC5;
+		color: #B0BEC5 !important;
 	}
 	div.input_prompt{
 		color: var(--material-code-blue);
@@ -1334,7 +1337,8 @@
 		color: var(--material-code-yellow);
 	}
 	.highlight .nf,
-	.highlight .nb{
+	.highlight .sb,
+	.highlight .s{
 		color: var(--material-code-red);
 	}
 	.highlight .o {
@@ -1345,19 +1349,25 @@
 		color: var(--material-code-orange);
 	}
 	.highlight .s2,
-	.highlight .s1{
+	.highlight .s1,
+	.highlight .nb{
 		color: var(--material-code-green);
 	}
 	.highlight .si,
 	.highlight .ow {
 		color: var(--material-code-purple);
 	}
-	.highlight .mf{
+	.highlight .mf,
+	.highlight .nv{
 		color: var(--material-code-blue);
 	}
 	.highlight .c1,
-	.highlight .sd{
+	.highlight .sd,
+	.highlight .m{
 		color: var(--material-code-comments);
 	}
-	
+	img.math {
+		-webkit-filter: invert(.75);
+						filter: invert(.75);
+  }
 }
