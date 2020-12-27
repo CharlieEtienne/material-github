@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub 2021
-@version      5.0.1
+@version      5.0.2
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -542,6 +542,44 @@
 	.hljs-built_in, .hljs-builtin-name {
 		color: var(--material-code-cyan);
 	}
+	
+	.highlight .kn, 
+	.highlight .k {
+		color: var(--material-code-cyan);
+	}
+	.highlight .nn{
+		color: var(--material-code-yellow);
+	}
+	.highlight .nf,
+	.highlight .nb,
+	.highlight .sb,
+	.highlight .s{
+		color: var(--material-code-red);
+	}
+	.highlight .o {
+		color: var(--material-code-cyan);
+	}
+	.highlight .mi,
+	.highlight .kc{
+		color: var(--material-code-orange);
+	}
+	.highlight .s2,
+	.highlight .s1{
+		color: var(--material-code-green);
+	}
+	.highlight .si,
+	.highlight .ow {
+		color: var(--material-code-purple);
+	}
+	.highlight .mf,
+	.highlight .nv{
+		color: var(--material-code-blue);
+	}
+	.highlight .c1,
+	.highlight .sd,
+	.highlight .m{
+		color: var(--material-code-comments);
+	}
 }
 
 
@@ -828,5 +866,54 @@
 @-moz-document domain("cli.github.com"){
 	.markdown-body .highlight pre, .markdown-body pre, .markdown-body code{
 		background-color: var(--bg1) !important;
+	}
+}
+
+
+/**
+ * | ==========================================
+ * |  STYLE render.githubusercontent.com
+ * | ==========================================
+ */
+@-moz-document domain("render.githubusercontent.com"){
+	body[data-render-url="https://render.githubusercontent.com"], #notebook {
+		background-color: var(--bg3) !important;
+		color: var(--text7);
+	}
+	h1, h2, h3, h4, h5, h6 {
+		color: var(--text5);
+	}
+	p, li, table {
+		color: var(--text7);
+	}
+	a {
+		color: var(--accent10);
+	}
+	a:hover, a:focus {
+		color: var(--accent11);
+	}
+	div.input_area, div.highlight pre, pre code {
+		border: 1px solid var(--bg6);
+		background-color: var(--bg4) !important;
+	}
+	div.output_stderr {
+		background-color: hsla(353, 25%, 21%, 1);
+	}
+	div.output_text{
+		color: rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/));
+		color: var(--text7);
+	}
+	code, pre, div.output_area pre {
+		color: #B0BEC5 !important;
+	}
+	div.input_prompt{
+		color: var(--material-code-blue);
+	}
+	div.output_prompt{
+		color: var(--material-code-red);
+	}
+	img.math {
+		-webkit-filter: invert(.75);
+		filter: invert(.75);
 	}
 }
