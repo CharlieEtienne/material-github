@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub 2021
-@version      5.0.0
+@version      5.0.1
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -147,7 +147,7 @@
         --color-btn-primary-focus-bg:                   var(--accent8);
         --color-btn-primary-selected-bg:                var(--accent8);
         --color-btn-primary-disabled-bg:                var(--accent4);
-        --color-markdown-code-bg:                       var(--bg6);
+        --color-markdown-code-bg:                       var(--bg5);
         --color-topic-tag-bg:                           var(--accent2);
         --color-topic-tag-hover-bg:                     var(--accent3);
         --color-state-selected-primary-bg:              var(--accent6);
@@ -163,6 +163,9 @@
         --color-notifications-row-bg:                   var(--bg5);
         --color-notifications-row-read-bg:              var(--bg4);
         --color-bg-info-inverse:                        var(--accent9);
+		--color-codemirror-lines-bg:                    var(--bg1);
+		--color-codemirror-bg:                          var(--bg1);
+		--color-codemirror-gutters-bg:                  var(--bg3);
 
 
         /* BORDERS */
@@ -220,6 +223,7 @@
         --color-btn-outline-text:                       var(--accent10);
         --color-btn-outline-hover-text:                 var(--accent12);
         --color-branch-name-text:                       var(--accent11);
+		--color-codemirror-text:                        var(--text7);
         
         
         /* STATES */
@@ -311,6 +315,8 @@
         --color-auto-red-8:                             hsla(346, 70%, 50%, 1);
         --color-auto-red-9:                             hsla(346, 70%, 55%, 1);
         --color-prettylights-syntax-comment:            var(--material-code-comments);
+		--color-codemirror-syntax-comment:              var(--material-code-comments);
+		--color-codemirror-linenumber-text:             var(--text1);
         
         
         /* CONTRIBUTIONS GRAPH */
@@ -516,4 +522,311 @@
     code .kc {
         color: var(--material-code-red)
     }
+	
+	
+	.hljs {
+		color: var(--text5);
+	}
+	.hljs-tag, .hljs-name, .hljs-attribute {
+		color: var(--material-code-blue);
+	}
+	.hljs-number, .hljs-literal, .hljs-variable, .hljs-template-variable, .hljs-tag .hljs-attr {
+		color: var(--material-code-red);
+	}
+	.hljs-string, .hljs-doctag {
+		color: var(--material-code-green);
+	}
+	.hljs-keyword, .hljs-selector-tag, .hljs-subst {
+		color: var(--text5);
+	}
+	.hljs-built_in, .hljs-builtin-name {
+		color: var(--material-code-cyan);
+	}
+}
+
+
+/**
+ * | ==========================================
+ * |  STYLE docs.github.com
+ * | ==========================================
+ */
+@-moz-document domain("docs.github.com"), domain("cli.github.com"){
+	
+	body {
+		color: var(--text7);
+		background-color: var(--bg2);
+	}
+	
+	a {
+		color: var(--accent11);
+	}
+	.DocsNav a {
+		color: var(--accent12);
+	}
+	
+	.bg-white {
+		background-color: var(--bg2) !important;
+	}
+	.bg-black {
+		background-color: var(--bg2);
+	}
+	.bg-gray-light {
+		background-color: var(--bg1) !important;
+	}
+	.bg-gray-dark {
+		background-color: var(--bg3) !important;
+	}
+	.bg-blue {
+		background-color: var(--accent8) !important;
+	}
+	.bg-blue-light {
+		background-color: var(--accent1) !important;
+	}
+	
+	
+	.color-gray-0{
+		color: var(--text0) !important;
+	}
+	.color-gray-1{
+		color: var(--text1) !important;
+	}
+	.color-gray-2{
+		color: var(--text2) !important;
+	}
+	.color-gray-3{
+		color: var(--text3) !important;
+	}
+	.color-gray-4{
+		color: var(--text4) !important;
+	}
+	.color-gray-5{
+		color: var(--text5) !important;
+	}
+	.color-gray-6{
+		color: var(--text6) !important;
+	}
+	.color-gray-7{
+		color: var(--text7) !important;
+	}
+	.color-gray-8{
+		color: var(--text8) !important;
+	}
+	.color-gray-9{
+		color: var(--text9) !important;
+	}
+	
+	
+	.text-white {
+		color: var(--text10) !important;
+	}
+	.text-gray-light {
+		color: var(--text4) !important;
+	}
+	.text-gray {
+		color: var(--text5) !important;
+	}
+	.text-gray-dark {
+		color: var(--text6) !important;
+	}
+	
+	.note {
+		color: var(--text5);
+	}
+	
+	
+	.link-gray {
+		color: var(--text2) !important;
+	}
+	.link-gray:hover {
+		color: var(--accent9) !important;
+	}
+	.link-gray-dark {
+		color: var(--text6) !important;
+	}
+	.link-gray-dark:hover {
+		color: var(--accent10) !important;
+	}
+	
+	
+	.border-gray-light {
+		border-color: var(--bg5) !important;
+	}
+	.border-gray {
+		border-color: var(--bg6) !important;
+	}
+	.border-gray-dark {
+		border-color: var(--bg7) !important;
+	}
+	.border-blue {
+		border-color: var(--accent6) !important;
+	}
+	
+	
+	.btn-mktg {
+		background-color: var(--accent7);
+		border: 1px solid var(--accent8);
+	}
+	.btn-outline-mktg {
+		color: var(--accent10);
+		background-color: rgba(255,255,255,0);
+		border-color: var(--accent4);
+	}
+	.btn-mktg:hover {
+		text-decoration: none;
+		background-color: var(--accent9);
+		border-color: var(--accent10);
+	}
+	.btn-outline-mktg:hover {
+		color: var(--accent10);
+		text-decoration: none;
+		background-color: rgba(255,255,255,0);
+		border-color: var(--accent9);
+	}
+
+	
+	.sidebar-background-color {
+		background-color: var(--bg2);
+	}
+	.sidebar {
+    	background-color: var(--bg3);
+	}
+	.sidebar-category.active {
+		background-color: var(--bg4);
+	}
+	.sidebar-product.is-current-page>a, .sidebar-category.is-current-page>a, .sidebar-maptopic.is-current-page>a, .sidebar-article.is-current-page>a {
+		color: var(--accent12);
+	}
+	.sidebar-products a:hover, .sidebar-products .arrow:hover {
+		color: var(--accent12);
+	}
+	.sidebar-maptopic .sidebar-article::before {
+		border-left: 1px solid var(--accent4);
+	}
+	.sidebar-maptopic .sidebar-article.active::before {
+		border-left: 3px solid var(--accent4);
+	}
+	
+	
+	section#landing {
+		background-color: var(--bg3) !important;
+	}
+	section.mt-lg-9.py-7.no-print.js-support-banner {
+	    background-color: var(--bg1) !important;
+	}
+	
+	h1 a, h2 a, h3 a, h4 a {
+		color: var(--text4);
+	}
+	h3 a {
+		color: var(--accent11);
+	}
+	
+	.markdown-body hr {
+    	background-color: var(--bg5);
+	}
+	
+	
+	.btn {
+		color: var(--text8);
+		background-color: var(--bg4);
+		border-color: var(--bg5);
+		box-shadow: 0 1px 0 hsla(/*[[theme]]*/, calc(35% * /*[[lightness]]*/), 0.04), inset 0 1px 0 hsla(/*[[theme]]*/, calc(13% * /*[[lightness]]*/), 0.25);
+	}
+	.btn:active, .btn.selected, .btn[aria-selected=true] {
+		background-color: var(--bg2);
+		box-shadow: inset 0 1px 0 hsla(/*[[theme]]*/, calc(13% * /*[[lightness]]*/), 0.2);
+	}
+	.btn:hover, .btn.hover, [open]>.btn {
+		background-color: var(--bg5);
+	}
+	.btn-outline:hover, [open]>.btn-outline {
+		color: var(--text11);
+		background-color: var(--accent9);
+		border-color: var(--accent10);
+		box-shadow: 0 1px 0 hsla(/*[[theme]]*/, calc(13% * /*[[lightness]]*/), .1), inset 0 1px 0 rgba(255,255,255,.03);
+	}
+	
+	
+	.btn .octicon {
+		color: var(--text5);
+	}
+	
+	
+	svg.arrow {
+		stroke: #fff;
+	}
+	@media (min-width: 768px) {
+		.nav-desktop-productDropdown, .nav-desktop-langDropdown {
+			background: var(--bg4);
+		}
+	}
+	.ais-SearchBox-input {
+		background: var(--bg1) url(/assets/images/octicons/search.svg) no-repeat 6px;
+		background-blend-mode: luminosity;
+	}
+	.form-control, .ais-SearchBox-input, .form-select {
+		background-color: var(--bg1);
+		color: rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/));
+		color: var(--text7);
+	    border: 1px solid var(--bg6);
+	}
+	.form-control.focus, .focus.ais-SearchBox-input, .form-control:focus, .ais-SearchBox-input:focus, .form-select.focus, .form-select:focus {
+		border-color: var(--accent7);
+		outline: none;
+		box-shadow: 0 0 0 3px hsla(/*[[accent]]*/, 38%, 66%, 0.3);
+	}
+	.ais-Hits-item:hover {
+		background: var(--bg5);
+	}
+	.markdown-body .lead-mktg p {
+		color: var(--text7);
+	}
+	.markdown-body .highlight pre, .markdown-body pre{
+		background-color: var(--bg1);
+	}
+	
+	.markdown-body code, .markdown-body tt {
+		background-color: var(--bg5);
+	}
+	.markdown-body table code {
+		background-color: var(--bg5);
+	}
+	
+	.markdown-body table tr {
+    	background-color: var(--bg2);
+		border-top: 1px solid var(--bg5);
+	}
+	.markdown-body table th {
+		background-color: var(--bg2);
+		box-shadow: 0 3px 0 0 var(--bg5);
+	}
+	
+	.markdown-body h2 {
+		border-bottom: 1px solid var(--bg6);
+	}
+	
+	.border.bg-purple-light, div.border.rounded-1.bg-purple-light {
+		background-color: hsla(260, 100%, 30%, 40%) !important;
+	}
+	.border.warning, div.border.rounded-1.warning {
+		background-color: hsla(30, 57%, 32%, 40%) !important;
+	}
+	.border.border-purple {
+		border-color: hsl(260 51% 30%) !important;
+	}
+	
+	@media (min-width: 768px){
+		header #search-results-container {
+			background: var(--bg3);
+		}
+	}
+	.link-with-intro-title {
+		color: var(--accent10) !important;
+	}
+}
+
+@-moz-document domain("cli.github.com"){
+	.markdown-body .highlight pre, .markdown-body pre, .markdown-body code{
+		background-color: var(--bg1) !important;
+	}
 }
