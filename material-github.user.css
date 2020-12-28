@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub 2021
-@version      5.0.2
+@version      5.0.3
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -122,9 +122,9 @@
         /* BACKGROUND */
         --color-bg-primary:                             var(--bg2);
         --color-bg-secondary:                           var(--bg2);
-        --color-bg-tertiary:                            var(--bg4);
+        --color-bg-tertiary:                            var(--bg3);
         --color-bg-canvas:                              var(--bg2);
-        --color-bg-info:                                var(--bg4);
+        --color-bg-info:                                hsla(/*[[accent]]*/, 50%, 66%, 0.1);
         --color-header-bg:                              var(--bg1);
         --color-dropdown-bg:                            var(--bg2);
         --color-previewable-comment-form-bg:            var(--bg2);
@@ -138,8 +138,8 @@
         --color-box-bg-info:                            var(--accent1);
         --color-current-user-tip-bg:                    var(--accent1);
         --color-bg-overlay:                             var(--bg4);
-        --color-btn-bg:                                 var(--bg4);
-        --color-btn-hover-bg:                           var(--bg5);
+        --color-btn-bg:                                 var(--bg5);
+        --color-btn-hover-bg:                           var(--bg6);
         --color-btn-selected-bg:                        var(--bg2);
         --color-social-count-bg:                        var(--bg4);
         --color-btn-primary-bg:                         var(--accent6);
@@ -160,8 +160,8 @@
         --color-btn-outline-selected-bg:                var(--accent7);
         --color-box-header-blue-bg:                     var(--bg2);
         --color-branch-name-bg:                         var(--accent2);
-        --color-notifications-row-bg:                   var(--bg5);
-        --color-notifications-row-read-bg:              var(--bg4);
+        --color-notifications-row-bg:                   var(--bg4);
+        --color-notifications-row-read-bg:              var(--bg2);
         --color-bg-info-inverse:                        var(--accent9);
 		--color-codemirror-lines-bg:                    var(--bg1);
 		--color-codemirror-bg:                          var(--bg1);
@@ -177,8 +177,8 @@
         --color-box-border-info:                        var(--accent5);
         --color-current-user-tip-border:                var(--accent5);
         --color-btn-border:                             var(--bg5);
-        --color-btn-hover-border:                       var(--bg6);
-        --color-btn-focus-border:                       var(--bg11);
+        --color-btn-hover-border:                       var(--text5);
+        --color-btn-focus-border:                       var(--text7);
         --color-btn-primary-border:                     var(--accent6);
         --color-btn-primary-hover-border:               var(--accent7);
         --color-btn-primary-focus-border:               var(--accent12);
@@ -206,7 +206,7 @@
         /* TEXTS */
         --color-text-primary:                           var(--text7);
         --color-text-secondary:                         var(--text4);
-        --color-text-tertiary:                          var(--text1);
+        --color-text-tertiary:                          var(--text2);
         --color-text-link:                              var(--accent11);
         --color-text-success:                           hsla(157, 62%, 46%, 1);
         --color-text-danger:                            hsla(346, 70%, 46%, 1);
@@ -804,7 +804,6 @@
 	}
 	.form-control, .ais-SearchBox-input, .form-select {
 		background-color: var(--bg1);
-		color: rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/));
 		color: var(--text7);
 	    border: 1px solid var(--bg6);
 	}
@@ -900,7 +899,6 @@
 		background-color: hsla(353, 25%, 21%, 1);
 	}
 	div.output_text{
-		color: rgba(255, 255, 255, calc(0.7 * /*[[text_brightness]]*/));
 		color: var(--text7);
 	}
 	code, pre, div.output_area pre {
