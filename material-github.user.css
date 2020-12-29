@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub 2021
-@version      5.0.3
+@version      5.0.4
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -124,7 +124,10 @@
         --color-bg-secondary:                           var(--bg2);
         --color-bg-tertiary:                            var(--bg3);
         --color-bg-canvas:                              var(--bg2);
+        --color-bg-canvas-inset:                        var(--bg1);
+        --color-bg-canvas-inverse:                      var(--bg3);
         --color-bg-info:                                hsla(/*[[accent]]*/, 50%, 66%, 0.1);
+        --color-bg-info-inverse:                        var(--accent9);
         --color-header-bg:                              var(--bg1);
         --color-dropdown-bg:                            var(--bg2);
         --color-previewable-comment-form-bg:            var(--bg2);
@@ -132,41 +135,47 @@
         --color-verified-badge-bg:                      hsla(157, 62%, 46%, 0.1);
         --color-sidenav-selected-bg:                    var(--bg4);
         --color-state-hover-secondary-bg:               var(--bg5);
-        --color-bg-canvas-inset:                        var(--bg1);
-        --color-bg-canvas-inverse:                      var(--bg3);
         --color-state-hover-primary-bg:                 var(--accent9);
         --color-box-bg-info:                            var(--accent1);
+        --color-box-header-blue-bg:                     var(--bg2);
         --color-current-user-tip-bg:                    var(--accent1);
         --color-bg-overlay:                             var(--bg4);
         --color-btn-bg:                                 var(--bg5);
         --color-btn-hover-bg:                           var(--bg6);
         --color-btn-selected-bg:                        var(--bg2);
-        --color-social-count-bg:                        var(--bg4);
         --color-btn-primary-bg:                         var(--accent6);
         --color-btn-primary-hover-bg:                   var(--accent7);
         --color-btn-primary-focus-bg:                   var(--accent8);
         --color-btn-primary-selected-bg:                var(--accent8);
         --color-btn-primary-disabled-bg:                var(--accent4);
+        --color-btn-outline-selected-bg:                var(--accent7);
+        --color-btn-outline-disabled-bg:                var(--bg1);
+        --color-social-count-bg:                        var(--bg5);
         --color-markdown-code-bg:                       var(--bg5);
         --color-topic-tag-bg:                           var(--accent2);
         --color-topic-tag-hover-bg:                     var(--accent3);
         --color-state-selected-primary-bg:              var(--accent6);
         --color-menu-bg-active:                         var(--bg4);
-        --color-btn-outline-disabled-bg:                var(--bg1);
         --color-input-bg:                               var(--bg1);
         --color-input-contrast-bg:                      var(--bg0);
+		--color-input-disabled-bg:                      var(--bg3);
         --color-header-search-bg:                       var(--bg0);
         --color-alert-info-bg:                          var(--accent1);
-        --color-btn-outline-selected-bg:                var(--accent7);
-        --color-box-header-blue-bg:                     var(--bg2);
         --color-branch-name-bg:                         var(--accent2);
         --color-notifications-row-bg:                   var(--bg4);
         --color-notifications-row-read-bg:              var(--bg2);
-        --color-bg-info-inverse:                        var(--accent9);
-		--color-codemirror-lines-bg:                    var(--bg1);
 		--color-codemirror-bg:                          var(--bg1);
+		--color-codemirror-lines-bg:                    var(--bg1);
 		--color-codemirror-gutters-bg:                  var(--bg3);
-
+		--color-project-header-bg:                      var(--bg1);
+		--color-project-card-bg:                        var(--bg3);
+		--color-project-sidebar-bg:                     var(--bg3);
+		--color-counter-bg:                             var(--bg6);
+		--color-counter-text:                           var(--text8);
+		--color-counter-primary-bg:                     var(--bg6);
+		--color-counter-primary-text:                   var(--text8);
+		--color-counter-secondary-text:                 var(--text6);
+		--color-hidden-text-expander-bg:                var(--bg5);
 
         /* BORDERS */
         --color-border-primary:                         var(--bg6);
@@ -175,6 +184,7 @@
         --color-dropdown-border:                        var(--bg5);
         --color-border-overlay:                         var(--bg5);
         --color-box-border-info:                        var(--accent5);
+        --color-box-header-blue-border:                 var(--bg6);
         --color-current-user-tip-border:                var(--accent5);
         --color-btn-border:                             var(--bg5);
         --color-btn-hover-border:                       var(--text5);
@@ -183,16 +193,15 @@
         --color-btn-primary-hover-border:               var(--accent7);
         --color-btn-primary-focus-border:               var(--accent12);
         --color-btn-primary-disabled-border:            var(--accent3);
-        --color-menu-border-active:                     var(--accent9);
-        --color-alert-info-border:                      var(--accent4);
         --color-btn-outline-hover-border:               var(--accent12);
         --color-btn-outline-focus-border:               var(--accent12);
+        --color-menu-border-active:                     var(--accent9);
+        --color-alert-info-border:                      var(--accent4);
         --color-upload-enabled-border:                  var(--bg7);
         --color-state-focus-border:                     var(--accent9);
         --color-state-selected-primary-border:          var(--accent9);
         --color-input-border:                           var(--bg4);
         --color-upload-enabled-border-focused:          var(--accent9);
-        --color-box-header-blue-border:                 var(--bg6);
         --color-verified-badge-border:                  hsla(157, 62%, 46%, 0.4);
         
         
@@ -201,6 +210,8 @@
         --color-shadow-large:                           hsla(/*[[theme]]*/, calc(13% * /*[[lightness]]*/), 0.2) 0px 8px 24px;
         --color-btn-focus-shadow:                       hsla(/*[[accent]]*/, 38%, 66%, 0.3) 0px 0px 0px 3px;
         --color-state-focus-shadow:                     0 0 0 3px var(--accent3);
+		--color-btn-shadow-input-focus:                 0 0 0 0.2em hsla(/*[[accent]]*/, 38%, 66%, 0.3);
+		--color-dropdown-shadow:                        hsla(/*[[theme]]*/, calc(13% * /*[[lightness]]*/), 0.85) 0px 16px 32px 0px;
         
 
         /* TEXTS */
