@@ -1020,9 +1020,11 @@
 		color: #cb244b !important;
 	}
 	.bg-green, .State--green {
+		color: #d3d3d3 !important
 		background: #2cbe87 !important;
 	}
 	.bg-red, .State--red {
+		color: #d3d3d3 !important
 		background: #cb244b !important;
 	}
 	.summary-stats li, .summary-stats li .num, ul.summary-stats li a,.diffstat-summary {
