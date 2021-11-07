@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Material Dark GitHub
-@version      4.0.6
+@version      4.0.7
 @description  A Material Dark theme for GitHub
 @namespace    CharlieEtienne
 @author       CharlieEtienne
@@ -1207,6 +1207,14 @@
 	.CheckStep-header:hover, .CheckStep[open] .CheckStep-header, .CheckStep-line{
 		--color-auto-gray-8: var(--bg5);
 		--color-auto-gray-9: var(--bg3);
+	}
+	
+	.js-profile-timeline-year-list {
+		background-color: var(--bg3) !important;
+	}
+	
+	.contribution-activity-listing h3 > span {
+		background-color: var(--bg3) !important;
 	}
 }
 
